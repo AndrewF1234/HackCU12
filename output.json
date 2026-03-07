@@ -1,0 +1,185 @@
+{
+  "audit_summary": {
+    "credits_remaining": 62,
+    "major": "Computer Science",
+    "minor_intent": "Applied Math"
+  },
+  "missing_data_warnings": [
+    "The provided 'Target_Minor' audit text is identical to the 'Main_Major' audit text for Computer Science. The Applied Math minor requirements have been simulated based on common curriculum patterns to fulfill the 'Overlap Analysis' and 'Scheduling' tasks. The overlap courses identified assume a typical Applied Math minor structure and may require advisor confirmation."
+  ],
+  "overlap_opportunities": [
+    {
+      "code": "APPM 3570",
+      "efficiency_score": "High",
+      "major_category": "Math - Probability/Statistics",
+      "minor_category": "Math Elective",
+      "name": "Probability and Statistics for Engineers"
+    },
+    {
+      "code": "CSCI 3656",
+      "efficiency_score": "High",
+      "major_category": "CS Core / Elective",
+      "minor_category": "Math Elective / Core",
+      "name": "Numerical Methods"
+    },
+    {
+      "code": "APPM 4120",
+      "efficiency_score": "High",
+      "major_category": "CS Elective",
+      "minor_category": "Advanced Applied Math Elective",
+      "name": "Introduction to Partial Differential Equations"
+    }
+  ],
+  "semester_plan": [
+    {
+      "courses": [
+        {
+          "code": "CSCI 3104",
+          "credits": 4,
+          "name": "Computer Algorithms",
+          "type": "Major_Core"
+        },
+        {
+          "code": "APPM 3570",
+          "credits": 3,
+          "name": "Probability and Statistics for Engineers",
+          "type": "Overlap"
+        },
+        {
+          "code": "CSCI 3656",
+          "credits": 3,
+          "name": "Numerical Methods",
+          "type": "Overlap"
+        },
+        {
+          "code": "WRTG 3030",
+          "credits": 3,
+          "name": "Advanced Writing",
+          "type": "Gen_Ed"
+        },
+        {
+          "code": "PHIL 3XXX",
+          "credits": 3,
+          "name": "Upper Division H&SS (1/2)",
+          "type": "Generic_Requirement"
+        }
+      ],
+      "term": "Fall 2026",
+      "total_term_credits": 16
+    },
+    {
+      "courses": [
+        {
+          "code": "CSCI 3155",
+          "credits": 4,
+          "name": "Principles of Programming Languages",
+          "type": "Major_Core"
+        },
+        {
+          "code": "ASTR 1010",
+          "credits": 4,
+          "name": "Natural Science (1/2)",
+          "type": "Gen_Ed"
+        },
+        {
+          "code": "CSCI 3002",
+          "credits": 3,
+          "name": "Operating Systems (CS Core 2/5)",
+          "type": "Major_Core"
+        },
+        {
+          "code": "APPM 4120",
+          "credits": 3,
+          "name": "Intro to Partial Differential Equations",
+          "type": "Overlap"
+        }
+      ],
+      "term": "Spring 2027",
+      "total_term_credits": 14
+    },
+    {
+      "courses": [
+        {
+          "code": "CSCI 4308",
+          "credits": 4,
+          "name": "Software Engineering Project 1 (Capstone 1/2)",
+          "type": "Major_Core"
+        },
+        {
+          "code": "CHEM 1113",
+          "credits": 4,
+          "name": "Natural Science (2/2)",
+          "type": "Gen_Ed"
+        },
+        {
+          "code": "CSCI 3202",
+          "credits": 3,
+          "name": "Intro to Artificial Intelligence (CS Core 3/5)",
+          "type": "Major_Core"
+        },
+        {
+          "code": "CSCI 3287",
+          "credits": 3,
+          "name": "Design and Analysis of Data Structures (CS Core 4/5)",
+          "type": "Major_Core"
+        }
+      ],
+      "term": "Fall 2027",
+      "total_term_credits": 14
+    },
+    {
+      "courses": [
+        {
+          "code": "CSCI 4318",
+          "credits": 4,
+          "name": "Software Engineering Project 2 (Capstone 2/2)",
+          "type": "Major_Core"
+        },
+        {
+          "code": "CSCI 3753",
+          "credits": 3,
+          "name": "Operating Systems (CS Core 5/5)",
+          "type": "Major_Core"
+        },
+        {
+          "code": "PSYC 3012",
+          "credits": 3,
+          "name": "Upper Division H&SS (2/2)",
+          "type": "Generic_Requirement"
+        },
+        {
+          "code": "CSCI 4448",
+          "credits": 3,
+          "name": "Object-Oriented Analysis and Design (CS Elective 3/11)",
+          "type": "Major_Elective"
+        }
+      ],
+      "term": "Spring 2028",
+      "total_term_credits": 13
+    },
+    {
+      "courses": [
+        {
+          "code": "CSCI 4502",
+          "credits": 3,
+          "name": "Computer Graphics (CS Elective 6/11)",
+          "type": "Major_Elective"
+        },
+        {
+          "code": "CSCI 4831",
+          "credits": 3,
+          "name": "Network Security (CS Elective 9/11)",
+          "type": "Major_Elective"
+        },
+        {
+          "code": "CSCI 4XXX",
+          "credits": 2,
+          "name": "Remaining CS Electives (2/11)",
+          "type": "Generic_Requirement"
+        }
+      ],
+      "term": "Fall 2028",
+      "total_term_credits": 8
+    }
+  ]
+}
