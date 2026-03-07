@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuffSchedule | CU Boulder Degree Planner</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cu-gold: #CFB87C;
+            --cu-black: #000000;
+            --cu-dark-gray: #565A5C;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 0.92);
+            --completed-bg: #e7f4e9;
+            --completed-border: #27ae60;
+        }
+
+        * { box-sizing: border-box; transition: all 0.25s ease; }
+        body, html { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color: #111; }
+
+        /* --- PAGE 1: HOME PAGE --- */
+        #home-page {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1629207703350-67c699949641?q=80&w=2000&auto=format&fit=crop'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 40px 20px;
+        }
+
+        .cu-logo { width: 130px; margin-bottom: 10px; filter: drop-shadow(0 0 10px rgba(207, 184, 124, 0.6)); }
+
+        .hero-text { color: var(--white); text-align: center; margin-bottom: 30px; }
+        .hero-text h1 { font-family: 'Montserrat', sans-serif; font-size: 3.5rem; margin: 0; font-weight: 800; }
+        .hero-text span { color: var(--cu-gold); }
+
+        .main-card {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            width: 100%;
+            max-width: 750px;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            border-left: 5px solid var(--cu-gold);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            color: var(--cu-black);
+            text-transform: uppercase;
+            font-size: 1.1rem;
+        }
+
+        label { display: block; font-weight: 600; margin-bottom: 8px; color: #333; }
+        select, input[type="text"], input[type="file"] {
+            width: 100%; padding: 14px; border: 1px solid #ccc; border-radius: 10px; font-size: 1rem; margin-bottom: 10px;
+        }
+
+        /* Search Bar & Tag UI */
+        .search-row { display: flex; gap: 10px; }
+        .btn-add { background: var(--cu-black); color: var(--cu-gold); border: none; padding: 0 25px; border-radius: 10px; cursor: pointer; font-weight: bold; }
+        .tag-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .tag { background: var(--cu-gold); color: black; padding: 8px 15px; border-radius: 50px; font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .tag span { margin-left: 10px; cursor: pointer; opacity: 0.6; }
+        .tag span:hover { opacity: 1; }
+
+        .generate-btn {
+            background: var(--cu-black); color: var(--cu-gold); width: 100%; padding: 20px; border: none; border-radius: 12px;
+            font-size: 1.4rem; font-weight: 800; cursor: pointer; margin-top: 30px; text-transform: uppercase;
+        }
+        .generate-btn:hover { background: #222; transform: translateY(-2px); }
+
+        /* --- PAGE 2: CHAT & PLAN PAGE --- */
+        #chat-page { display: none; flex-direction: column; align-items: center; background: #f8f9fa; min-height: 100vh; padding: 40px 20px; }
+
+        .chat-container {
+            width: 100%; max-width: 1000px; height: 500px; background: white; border-radius: 25px;
+            display: flex; flex-direction: column; overflow: hidden; border: 1px solid #ddd; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px;
+        }
+        .chat-header { background: var(--cu-black); color: var(--cu-gold); padding: 20px; font-weight: 800; display: flex; justify-content: space-between; }
+        .chat-messages { flex: 1; padding: 25px; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; background: #fafafa; }
+        .msg { padding: 15px 20px; border-radius: 20px; max-width: 75%; line-height: 1.4; }
+        .bot { background: #eee; align-self: flex-start; border-bottom-left-radius: 2px; }
+        .user { background: var(--cu-gold); align-self: flex-end; border-bottom-right-radius: 2px; font-weight: 600; }
+
+        /* --- ACCORDION PLAN --- */
+        .plan-section { width: 100%; max-width: 1000px; }
+        .year-accordion { background: white; border-radius: 12px; margin-bottom: 15px; overflow: hidden; border: 1px solid #ddd; }
+        .year-header { background: var(--cu-black); color: var(--cu-gold); padding: 18px 25px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 800; font-family: 'Montserrat'; }
+        .year-content { display: none; padding: 25px; background: white; }
+        .semester-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        
+        .semester-col h4 { margin-top: 0; color: var(--cu-dark-gray); border-bottom: 2px solid var(--cu-gold); padding-bottom: 10px; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+        .course-item { display: flex; justify-content: space-between; padding: 10px 15px; margin-bottom: 8px; border-radius: 8px; background: #f9f9f9; font-size: 0.95rem; border-left: 4px solid #ddd; }
+        
+        /* Progress Styles */
+        .course-item.completed { background: var(--completed-bg); border-left-color: var(--completed-border); color: #1b5e20; font-weight: 500; }
+        .course-item.completed::after { content: '✓'; }
+
+        /* LOADING SCREEN */
+        #loader { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--cu-black); color: var(--cu-gold); flex-direction: column; justify-content: center; align-items: center; z-index: 1000; font-size: 1.5rem; font-weight: 800; }
+    </style>
+</head>
+<body>
+
+<div id="loader">CALCULATING DEGREE PATH...</div>
+
+<!-- PAGE 1: HOME -->
+<section id="home-page">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Colorado_Buffalos_logo.svg/1200px-Colorado_Buffalos_logo.svg.png" class="cu-logo" alt="CU Logo">
+    
+    <div class="hero-text">
+        <h1>Buff<span>Schedule</span></h1>
+        <p>Your personalized path through the University of Colorado Boulder</p>
+    </div>
+
+    <div class="main-card">
+        <div class="section-title">1. Upload Degree Audit</div>
+        <input type="file" id="auditInput">
+        <p style="font-size: 0.8rem; color: #666; margin-top: -5px;">Upload your HTML or PDF audit from Buff Portal.</p>
+
+        <div class="section-title">2. Academic Interests</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="form-group">
+                <label>Major</label>
+                <select id="majorSelect">
+                    <option value="CSCI-BS">Computer Science (B.S.)</option>
+                    <option value="BUSN">Business Administration</option>
+                    <option value="IPHY">Integrative Physiology</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Minor (Optional)</label>
+                <select>
+                    <option>None</option>
+                    <option>Business Minor</option>
+                    <option>Space Minor</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section-title">3. Specific Interest Classes</div>
+        <label>Any specific classes you want to take?</label>
+        <div class="search-row">
+            <input type="text" id="classSearch" placeholder="e.g. ATLS 1300, MUSC 1252...">
+            <button class="btn-add" onclick="addInterestTag()">ADD</button>
+        </div>
+        <div class="tag-container" id="tagContainer"></div>
+
+        <button class="generate-btn" onclick="goToPlan()">Generate My Plan</button>
+    </div>
+</section>
+
+<!-- PAGE 2: CHAT & ACCORDION PLAN -->
+<section id="chat-page">
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>BUFFBOT ADVISOR</span>
+            <span style="font-size: 0.8rem; opacity: 0.7;">Online</span>
+        </div>
+        <div class="chat-messages" id="chatLogs">
+            <div class="msg bot">Hello! I've analyzed your audit. I see you've completed 10 credits so far. I've highlighted those in green on your 4-year plan below. How can I adjust this schedule for you?</div>
+        </div>
+        <div style="padding: 20px; display: flex; gap: 15px; background: white; border-top: 1px solid #eee;">
+            <input type="text" id="chatInput" placeholder="e.g. I need a lighter workload Fall year 2..." style="margin:0;">
+            <button class="btn-add" style="margin:0; width: 120px;" onclick="sendChatMessage()">SEND</button>
+        </div>
+    </div>
+
+    <div class="plan-section">
+        <h2 style="font-family: Montserrat; text-align: center; margin-bottom: 30px; letter-spacing: -1px;">Recommended Four-Year Plan</h2>
+        <div id="planAccordionContainer"></div>
+    </div>
+</section>
+
+<script>
+    const userInterestTags = [];
+
+    // --- PAGE 1 LOGIC ---
+    function addInterestTag() {
+        const input = document.getElementById('classSearch');
+        const val = input.value.trim().toUpperCase();
+        if (val && !userInterestTags.includes(val)) {
+            userInterestTags.push(val);
+            const container = document.getElementById('tagContainer');
+            const tag = document.createElement('div');
+            tag.className = 'tag';
+            tag.innerHTML = `${val} <span onclick="removeTag('${val}', this)">×</span>`;
+            container.appendChild(tag);
+            input.value = '';
+        }
+    }
+
+    function removeTag(val, el) {
+        const index = userInterestTags.indexOf(val);
+        if (index > -1) userInterestTags.splice(index, 1);
+        el.parentElement.remove();
+    }
+
+    // --- TRANSITION LOGIC ---
+    function goToPlan() {
+        document.getElementById('loader').style.display = 'flex';
+        
+        buildFourYearPlan();
+
+        setTimeout(() => {
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('home-page').style.display = 'none';
+            document.getElementById('chat-page').style.display = 'flex';
+            window.scrollTo(0,0);
+        }, 1500);
+    }
+
+    // --- PAGE 2 LOGIC (4-Year Plan Data) ---
+    const degreeData = [
+        { 
+            year: "First Year",
+            fall: [ ["APPM 1350", 4, true], ["CSCI 1000", 1, true], ["CSCI 1300", 4, true], ["COEN 1500", 1, true] ],
+            spring: [ ["APPM 1360", 4, false], ["CSCI 2270", 4, false], ["PHYS 1110", 4, false], ["Logic Option", 3, false] ]
+        },
+        { 
+            year: "Second Year",
+            fall: [ ["CSCI 2400", 4, false], ["CSCI 2824", 3, false], ["CSCI 3308", 3, false], ["Natural Science", 3, false] ],
+            spring: [ ["CSCI 3104", 4, false], ["CSCI Core", 3, false], ["Linear Algebra", 3, false], ["HSS Elective", 3, false] ]
+        },
+        { 
+            year: "Third Year",
+            fall: [ ["CSCI 3155", 4, false], ["CSCI Elective", 3, false], ["Prob/Stats", 3, false], ["Gen Ed", 3, false] ],
+            spring: [ ["CSCI Core", 3, false], ["CSCI Elective", 3, false], ["Natural Science", 3, false], ["Elective", 3, false] ]
+        },
+        { 
+            year: "Fourth Year",
+            fall: [ ["CSCI Capstone", 4, false], ["CSCI Core", 3, false], ["HSS Upper Div", 3, false] ],
+            spring: [ ["CSCI Capstone", 4, false], ["CSCI Elective", 3, false], ["Elective", 3, false] ]
+        }
+    ];
+
+    function buildFourYearPlan() {
+        const container = document.getElementById('planAccordionContainer');
+        container.innerHTML = '';
+
+        degreeData.forEach((year, idx) => {
+            // If user added specific tags, let's inject one into the first year spring for demo purposes
+            if(idx === 0 && userInterestTags.length > 0) {
+                year.spring.push([userInterestTags[0], 3, false]);
+            }
+
+            const section = document.createElement('div');
+            section.className = 'year-accordion';
+            section.innerHTML = `
+                <div class="year-header" onclick="toggleAccordion(this)">
+                    <span>${year.year}</span>
+                    <span>+</span>
+                </div>
+                <div class="year-content">
+                    <div class="semester-grid">
+                        <div class="semester-col">
+                            <h4>Fall Semester</h4>
+                            ${year.fall.map(c => `<div class="course-item ${c[2]?'completed':''}"><span>${c[0]}</span><span>${c[1]}</span></div>`).join('')}
+                        </div>
+                        <div class="semester-col">
+                            <h4>Spring Semester</h4>
+                            ${year.spring.map(c => `<div class="course-item ${c[2]?'completed':''}"><span>${c[0]}</span><span>${c[1]}</span></div>`).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.appendChild(section);
+        });
+    }
+
+    function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        const isOpen = content.style.display === "block";
+        content.style.display = isOpen ? "none" : "block";
+        header.querySelector('span:last-child').innerText = isOpen ? "+" : "-";
+    }
+
+    function sendChatMessage() {
+        const input = document.getElementById('chatInput');
+        const logs = document.getElementById('chatLogs');
+        if(!input.value) return;
+
+        const uMsg = document.createElement('div');
+        uMsg.className = 'msg user';
+        uMsg.innerText = input.value;
+        logs.appendChild(uMsg);
+        
+        const val = input.value.toLowerCase();
+        input.value = '';
+
+        setTimeout(() => {
+            const bMsg = document.createElement('div');
+            bMsg.className = 'msg bot';
+            if(val.includes("work")) bMsg.innerText = "I've reduced your Fall Year 2 to 12 credits to accommodate your work schedule.";
+            else bMsg.innerText = "I've updated the roadmap below based on your request. Check the Spring semester of your Second Year!";
+            logs.appendChild(bMsg);
+            logs.scrollTop = logs.scrollHeight;
+        }, 800);
+    }
+</script>
+
+</body>
+</html>
