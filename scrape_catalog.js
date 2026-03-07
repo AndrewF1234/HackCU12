@@ -54,14 +54,12 @@ https.get(url, (res) => {
 
                 let requisites = [];
                 $(element).find('p').each((i, p) => {
-                    if ($(p).text().includes('Requisites:')) {
-                        $(p).find('a').each((j, a) => {
-                            const href = $(a).attr('href');
-                            if (href && href.startsWith('/search/?P=')) {
-                                const code = decodeURIComponent(href.split('=')[1]);
-                                requisites.push(code);
-                            }
-                        });
+                    const text = $(p).text();
+                    const reqIndex = text.indexOf('Requisites:');
+                    if (reqIndex !== -1) {
+                        const reqText = text.substring(reqIndex + 'Requisites:'.length).split('.Additional Information:')[0].trim().replace(/\u00a0/g, ' ');
+                        const codes = [...reqText.matchAll(/([A-Z]{4} \d{4})/g)].map(m => m[1]);
+                        requisites = codes;
                     }
                 });
 

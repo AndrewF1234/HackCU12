@@ -4,9 +4,7 @@
     "title": "Computer Science as a Field of Work and Study",
     "credits": "1",
     "description": "Introduces curriculum, learning techniques, time management and career opportunities in Computer Science. Includes presentations from alumni and others with relevant educational and professional experience.",
-    "requisites": [
-      "CSPB 1000"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 1200",
@@ -21,8 +19,6 @@
     "credits": "4",
     "description": "Teaches techniques for writing computer programs in higher level programming languages to solve problems of interest in a range of application domains. Appropriate for students with little to no experience in computing or programming.",
     "requisites": [
-      "ECEN 1310",
-      "CSPB 1300",
       "APPM 1235",
       "APPM 1340",
       "APPM 1345",
@@ -38,10 +34,10 @@
     "credits": "4",
     "description": "Studies data abstractions (e.g., stacks, queues, lists, trees, graphs, heaps, hash tables, priority queues) and their representation techniques (e.g., linking, arrays). Introduces concepts used in algorithm design and analysis including criteria for selecting data structures to fit their applications. Knowledge of C++ is highly recommended.",
     "requisites": [
-      "CSCI 2275",
-      "CSPB 2270",
       "CSCI 1300",
+      "CSCI 1320",
       "ECEN 1310",
+      "ASEN 1320",
       "MATH 1300",
       "MATH 1310",
       "APPM 1345",
@@ -54,8 +50,6 @@
     "credits": "4",
     "description": "Combines the content in CSCI 1300 and CSCI 2270 and is intended for students with experience with at least one object oriented programming language. Assumes knowledge of programming constructs- data types, conditionals, loops and classes. Students must pass a programming competency exam administered by the computer science department to take this class. The course includes an expedited instruction in the C++ programming language and then primarily focuses on the content in CSCI 2270: data abstractions (e.g., stacks, queues, lists, trees, graphs, heaps, hash tables, priority queues) and their representation techniques (e.g., linking, arrays). Introduces concepts used in algorithm design and analysis including criteria for selecting data structures to fit their applications.",
     "requisites": [
-      "CSCI 2270",
-      "CSPB 2270",
       "MATH 1300",
       "MATH 1310",
       "APPM 1345",
@@ -68,7 +62,6 @@
     "credits": "4",
     "description": "Covers how programs are represented and executed by modern computers, including low-level machine representations of programs and data, an understanding of how computer components and the memory hierarchy influence performance.",
     "requisites": [
-      "CSPB 2400",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -86,7 +79,6 @@
     "credits": "3",
     "description": "Introduces the fundamentals of linear algebra in the context of computer science applications. Includes vector spaces, matrices, linear systems, and eigenvalues. Includes the basics of floating point computation and numerical linear algebra.",
     "requisites": [
-      "CSPB 2820",
       "CSCI 2270",
       "CSCI 2275",
       "APPM 1360",
@@ -99,9 +91,10 @@
     "credits": "3",
     "description": "Covers foundational materials for computer science that is often assumed in advanced courses. Topics include set theory, Boolean algebra, functions and relations, graphs, propositional and predicate calculus, proofs, mathematical induction, recurrence relations, combinatorics, discrete probability. Focuses on examples based on diverse applications of computer science.",
     "requisites": [
-      "CSPB 2824",
+      "ASEN 1320",
       "CSCI 1200",
       "CSCI 1300",
+      "CSCI 1320",
       "CSCI 2275",
       "ECEN 1310",
       "MCEN 1030",
@@ -164,7 +157,6 @@
     "credits": "3",
     "description": "Explores concepts and techniques for design and construction of larger, reliable, and maintainable software systems in the context of object-oriented programming. Covers various topics including: object-oriented programming paradigms, scope, inheritance, program structure and design, practical use of version control, working with established code bases, and building graphical user interfaces. Emphasizes coding individually and in pairs and includes in class lab work, smaller coding assignments, and multiple weeks-long projects. Not intended for students in their final year of the Computer Science BA or BS degree. Formerly offered as a special topics course.",
     "requisites": [
-      "CSPB 3010",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 3308"
@@ -176,7 +168,6 @@
     "credits": "3",
     "description": "Introduces students to the tools, methods and theory behind extracting insights from data. Covers algorithms of cleaning and munging data, probability theory and common distributions, statistical simulation, drawing inferences from data, and basic statistical modeling.",
     "requisites": [
-      "CSPB 3022",
       "CSCI 2270",
       "CSCI 2275",
       "APPM 1360",
@@ -193,8 +184,6 @@
     "credits": "3",
     "description": "Covers the basics of quantum computation, including the basics of quantum information; axioms of quantum mechanics; quantum circuits and universality; the relationship between quantum and classical complexity classes; simple quantum algorithms such as the quantum Fourier transform; Shor factoring algorithm; Grover search algorithm; physical implementation of quantum computation; error correction and fault tolerance.",
     "requisites": [
-      "PHYS 3090",
-      "ECEN 3090",
       "APPM 2360",
       "APPM 3310",
       "CSCI 2820",
@@ -207,12 +196,7 @@
     "title": "Software and Society",
     "credits": "1",
     "description": "Provides students with an understanding of the professional, ethical, legal and social issues and responsibilities of software developers, as well as providing them with the ability to analyze the local and global impacts of computing on individuals, organizations and society. Required for, and restricted to, Computer Science majors completing a Senior Thesis. Department consent required.",
-    "requisites": [
-      "CSCI 4308",
-      "CSCI 4328",
-      "CSCI 4338",
-      "CSCI 4348"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 3104",
@@ -220,7 +204,6 @@
     "credits": "4",
     "description": "Covers the fundamentals of algorithms and various algorithmic strategies, including time and space complexity, sorting algorithms, recurrence relations, divide and conquer algorithms, greedy algorithms, dynamic programming, linear programming, graph algorithms, problems in P and NP, and approximation algorithms.",
     "requisites": [
-      "CSPB 3104",
       "CSCI 2270",
       "CSCI 2275",
       "APPM 1360",
@@ -247,7 +230,6 @@
     "credits": "3",
     "description": "Focusing on the concepts of universal design and Web Standards, this course will address issues that occur at the nexus of web standards, Universal Design and the needs of persons with disabilities. Students will gain the expertise and skills to create media and web sites which are accessible, usable and effective for all users and device platforms.",
     "requisites": [
-      "ATLS 3150",
       "CSCI 1300"
     ]
   },
@@ -257,7 +239,6 @@
     "credits": "4",
     "description": "Studies principles governing the design and analysis of programming languages and their underlying execution models. Explores values, scoping, recursion, higher-order functions, type systems, control structures, and objects. Introduces formal semantics as a framework for understanding programming features. Introduces advanced programming concepts such as functional programming, higher-order functions, immutable values and structures, inductive types, functors, continuation-passing; and object-oriented programming using inheritance, generics and covariance/contravariance in a functional programming language such as Scala.",
     "requisites": [
-      "CSPB 3155",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 2400",
@@ -275,7 +256,6 @@
     "credits": "3",
     "description": "Surveys artificial intelligence techniques of search, knowledge representation and reasoning, probabilistic inference, machine learning, and natural language. Knowledge of Python is strongly recommended.",
     "requisites": [
-      "CSPB 3202",
       "CSCI 2270",
       "CSCI 2275",
       "APPM 3170",
@@ -300,7 +280,6 @@
     "credits": "3",
     "description": "Introduces the fundamental concepts of database requirements analysis, database design, and database implementation with emphasis on the relational model and the SQL programming language. Introduces the concepts of Big Data and NoSQL systems.",
     "requisites": [
-      "CSPB 3287",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -311,8 +290,6 @@
     "credits": "3",
     "description": "Introduces students to fundamental concepts in autonomous robotics: mechanisms, locomotion, kinematics, control, perception and planning. Consists of lectures and lab sessions that are geared toward developing a complete navigation stack on a miniature mobile robotic platform.",
     "requisites": [
-      "ECEN 3303",
-      "CSPB 3302",
       "CSCI 2270",
       "CSCI 2275",
       "APPM 3170",
@@ -332,7 +309,6 @@
     "credits": "3",
     "description": "Covers tools and techniques for successful software development with a strong focus on best practices used in industry. Students work in small teams to complete a semester-long application development project. Students learn front-end design and construction using HTML & CSS, back-end database design and construction, and full-stack integration. Students gain exposure to agile methodologies, web services, distributed version control, requirements definition, automated integration testing, and cloud-based application deployment.",
     "requisites": [
-      "CSPB 3308",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -350,7 +326,6 @@
     "credits": "4",
     "description": "Introduces core concepts in cybersecurity including confidentiality, integrity, authentication, risk management, and adversarial thinking. The concepts will be applied to both traditional information technology (IT) systems and cyber physical systems (CPS). At the conclusion of the course students should have a solid foundation in cybersecurity and hands-on experience.",
     "requisites": [
-      "CSPB 3403",
       "CSCI 2400",
       "ECEN 2360",
       "ECEN 3350"
@@ -371,8 +346,6 @@
     "credits": "3",
     "description": "Studies computer design at the microarchitecture level. Discusses instruction set architecture design, arithmetic and logic unit design, control logic, memory design and caches, simple pipelining, I/O and peripheral devices. Briefly covers aspects of modern computer architecture, such as multicore processors and hardware security.",
     "requisites": [
-      "ECEN 3593",
-      "ECEN 5590",
       "ECEN 2360",
       "ECEN 3350",
       "CSCI 2400"
@@ -384,7 +357,9 @@
     "credits": "3",
     "description": "Covers development, computer implementation, and analysis of numerical methods for applied mathematical problems. Explores topics such as floating point arithmetic, numerical solution of linear systems of equations, root finding, numerical interpolation, differentiation, and integration.",
     "requisites": [
+      "ASEN 1320",
       "CSCI 1300",
+      "CSCI 1320",
       "CSCI 2275",
       "ECEN 1310",
       "APPM 1360",
@@ -409,7 +384,6 @@
     "credits": "4",
     "description": "Analyzes the software that extends hardware to provide a computing environment, including the role of linkers, file systems, resource sharing, security and networking. Studies the history of operating system organization and design and their influence on security, functionality and reliability.",
     "requisites": [
-      "CSPB 3753",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 2400",
@@ -423,7 +397,6 @@
     "credits": "3",
     "description": "Explores the theoretical and practical issues that arise in getting computers to perform useful and interesting tasks with human languages. Topics include information extraction, dialog systems and machine translation. Focus is on the use of language data and machine learning algorithms to build robust systems.",
     "requisites": [
-      "CSPB 3832",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 2824",
@@ -442,7 +415,6 @@
       "CSCI 2820",
       "MATH 2130",
       "MATH 2135",
-      "CSCI 3022",
       "APPM 3570",
       "CHEN 3010",
       "CVEN 3227",
@@ -452,7 +424,6 @@
       "ECON 3818",
       "STAT 3100",
       "STAT 4000",
-      "STAT 4520",
       "CSCI 3104"
     ]
   },
@@ -462,10 +433,6 @@
     "credits": "3",
     "description": "Introduces Linux Unix system administration and related topics. Includes hardware and software installation, storage management, configuration of user accounts and system services, development of automation and monitoring tools, and the provisioning of common network services. This laboratory-focused course will provide significant exposure to the network security concerns of Internet connected hosts. Students will build a network of Linux servers from the ground up using provided computing resources and must maintain and secure these servers themselves.",
     "requisites": [
-      "CSCI 5113",
-      "CYBR 5113",
-      "CSCI 5030",
-      "CYBR 5030",
       "CSCI 3753"
     ]
   },
@@ -475,7 +442,6 @@
     "credits": "3",
     "description": "When coming across an algorithmic problem, how do we think about how hard it is? Beyond just how much time or memory it takes, computational complexity offers a plethora of concepts for understanding this fundamental question. This leads to the appropriate choice of algorithm for the job, the development of new algorithms, and understanding the role of algorithmic complexity in natural settings such as biology and physics.",
     "requisites": [
-      "CSCI 5114",
       "CSCI 3104"
     ]
   },
@@ -485,7 +451,7 @@
     "credits": "3",
     "description": "Learn the core principles of software engineering to develop scientific software that is robust and reproducible. This class targets quantitative scientists in any discipline who have programming skills (any language) and want to use software to further their research. The course covers version control, testing, benchmarking, data structures, algorithms, and pipelines. Instructor approval is required for CS majors and CS minors.",
     "requisites": [
-      "CSCI 6118",
+      "ASEN 1320",
       "CSCI 1200",
       "CSCI 1300",
       "CSCI 2275",
@@ -499,12 +465,12 @@
     "credits": "3",
     "description": "Practice thinking like an attacker by exploring several modern computer security attacks and defenses through hands-on programming projects. Topics include applied cryptography (encryption, authentication), web security (XSS, CSRF, SQL Injection), network security (TLS, MITM attacks), application security (shell injection, buffer overflows), and other current events and trends (government surveillance, botnets, cryptocurrencies).",
     "requisites": [
-      "ECEN 4133",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 2400",
       "ECEN 2360",
       "ECEN 3350",
+      "CSCI 4593",
       "CSCI 3593"
     ]
   },
@@ -514,8 +480,6 @@
     "credits": "3",
     "description": "Overviews the distinctive characteristics of the wireless communications medium. Topics covered include: Analog signals, Antennas and Propagation, Digital Signals, Sampling, Quadrature Signals, Digital Modulation, SNR and SINR Concepts, Channel Models, Channel Statistics, and Link Budgets. The course includes an introduction to MIMO and beam-forming as implemented in modern communication systems. Software Defined Radio (SDR) is introduced to facilitate student hands-on learning of radio operation. Recommended: Familiarity with basic programming, statistics, and computer networking concepts. Formerly CYBR 4200.",
     "requisites": [
-      "CYBR 5200",
-      "CSCI 5200",
       "CSCI 2400",
       "ECEN 2360",
       "ECEN 3350",
@@ -540,9 +504,6 @@
     "credits": "3",
     "description": "Provides students with a comprehensive survey of technologies used today in the collection, storage, processing, analytics and display of big data. Focuses on cultivating real world skills with students working on semester long projects to execute on a group project.",
     "requisites": [
-      "ATLS 5214",
-      "CSCI 5214",
-      "ATLS 4214",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -553,7 +514,6 @@
     "credits": "3",
     "description": "Studies design, analysis and implementation of computer graphics techniques. Topics include interactive techniques, 3D viewing and models, clipping, transformations, projection, removal of hidden surfaces, lighting, textures and shadows. Knowledge of basic linear algebra is required.",
     "requisites": [
-      "CSCI 5229",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -564,7 +524,6 @@
     "credits": "3",
     "description": "Studies design, analysis and implementation of advanced computer graphics techniques. Topics include shaders, using the GPU for high performance computing, graphics programming on embedded devices such as mobile phones; advanced graphics techniques such as ray tracing.",
     "requisites": [
-      "CSCI 5239",
       "CSCI 4229"
     ]
   },
@@ -574,8 +533,6 @@
     "credits": "3",
     "description": "Examines an emerging technology known as blockchain. Blockchain refers to the distributed and decentralized database technology behind popular cryptocurrencies such as Bitcoin and Ethereum. However, it can be used to record and transfer any digital asset, not just currency. This course explores the fundamentals of blockchain technology and its application from three key perspectives: policy and governance, technology, and application. Students gain an understanding of key concepts and how to apply them in the industry.",
     "requisites": [
-      "CYBR 5240",
-      "CSCI 5240",
       "CSCI 2270",
       "CSCI 2275",
       "CSCI 2824",
@@ -597,7 +554,6 @@
     "credits": "3",
     "description": "Covers the primary problem solving strategies, methods and tools needed for data-intensive programs using large collections of computers typically called \"warehouse scale\" or \"data-center scale\" computers. Examines methods and algorithms for processing data-intensive applications, methods for deploying and managing large collections of computers in an on-demand infrastructure and issues of large-scale computer system design.",
     "requisites": [
-      "CSCI 5253",
       "CSCI 3753",
       "CSCI 4273"
     ]
@@ -617,7 +573,6 @@
     "credits": "3",
     "description": "An intensive exploration of major challenges in robotics, providing a hands-on review of current research topics in the context of a \"robotics grand challenge\" problem. Topics include online planning and control, state estimation, simultaneous localization and mapping, and operating under partial observability.",
     "requisites": [
-      "CSCI 5302",
       "CSCI 3302"
     ]
   },
@@ -627,8 +582,6 @@
     "credits": "1",
     "description": "Gives students hands-on experience applying practical security skills and adversarial thinking to real-world problems. Students will work in small teams on internal challenges, lab development, open source contributions, and will represent the university in larger teams for external challenges at the national and global level, such as those hosted by Collegiate Cyber Defense Competition (CCDC), Wicked6, DOE CyberForce, etc. Students will be expected to participate in both internal and external challenges, attend meetings, and present short presentations to the group when appropriate. Previously offered as a special topics course.",
     "requisites": [
-      "CYBR 5303",
-      "CSCI 5303",
       "CSCI 3403"
     ]
   },
@@ -637,9 +590,7 @@
     "title": "Software Engineering Project 1",
     "credits": "4",
     "description": "Senior capstone course in which students design, implement, document and test software systems for use in industry, non-profits, government and research institutions. Also offers extensive experience in oral and written communication throughout the development process. Department consent required. Department-enforced prerequisites differ for BS and BA degrees. Contact academic advisor for details. Senior Capstone courses are optional for BA students. BA students interested in taking this course should contact their advisor early in their major. Students must take this course and CSCI 4318 contiguously as the project spans the entire academic year. Duplicate degree",
-    "requisites": [
-      "CSCI 4328"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 4313",
@@ -647,9 +598,6 @@
     "credits": "3",
     "description": "Introduces the theory and practice of multicore programming. The first part of the course presents foundations of concurrent programming: mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, memory consistency models. The second part presents a sequence of concurrent data structures and techniques used in their implementations (coarse-grained, fine-grained, optimistic and lock-free synchronization).",
     "requisites": [
-      "ECEN 4313",
-      "ECEN 5313",
-      "CSCI 5313",
       "CSCI 2400",
       "ECEN 3593",
       "CSCI 3593"
@@ -661,7 +609,6 @@
     "credits": "3",
     "description": "Surveys computational and mathematical modeling to illuminate biological processes. Students work together to learn to build and analyze models using a variety of numerical tools, tackle meaningful biological problems, and communicate effectively across disciplines. Specific topics: Langevin dynamics of protein folding, agent-based models, finite difference models of organismal growth, stochastic and deterministic cellular automata game of life, models of behavior.",
     "requisites": [
-      "CSCI 5314",
       "APPM 3650",
       "ASTR 2600",
       "CSCI 2270",
@@ -691,9 +638,7 @@
     "title": "Software Project Management and Mentoring",
     "credits": "4",
     "description": "Review software project management and discuss the latest approaches, methodologies and standards of software development. Learn to develop software quality, documentation, testing and prototype goals. Study project risk management and cost estimation approaches. Students will mentor other Senior Software Project Teams. Intended for students with professional software development experience. Department consent required, see Senior Project Director for permission.",
-    "requisites": [
-      "CSCI 4308"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 4338",
@@ -707,9 +652,7 @@
     "title": "Startup Essentials: Entrepreneurial Projects in Computing",
     "credits": "4",
     "description": "Provide students with the tools to be successful technical co-founders of their own startups. Explores the initial stages of founding a startup, including team formation, idea validation, pivoting and pitching, while employing an iterative methodology. Student teams will develop a minimum viable product, pitch their final startup concept, and be evaluated on product/market fit. Department consent required. Department-enforced prerequisites differ for BS and BA degrees. Contact academic advisor for details. Senior Capstone courses are optional for BA students. BA students interested in taking this course should contact their advisor(s) early in their major. Students must take this course and CSCI 4358 contiguously as the project spans the entire academic year.",
-    "requisites": [
-      "CSCI 5340"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 4358",
@@ -717,7 +660,6 @@
     "credits": "4",
     "description": "Follows CSCI 4348. In the second semester of this entrepreneurial project capstone, student teams will seek to find market traction for a high-fidelity Minimum Viable Product (MVP), software and/or hardware, that they will develop as part of their startup project. Teams will further learn to incorporate principles of marketing, business finance and legal issues into the business model for their startup concept. Students must take this course and CSCI 4348 contiguously as the project spans the entire academic year.",
     "requisites": [
-      "CSCI 5350",
       "CSCI 4348"
     ]
   },
@@ -743,7 +685,6 @@
     "credits": "3",
     "description": "Teaches basic exploit design and development through hands-on experimentation and testing. Uses a controlled environment to give students a \"playground\" in which to test penetration skills that are normally not allowed on live networks.",
     "requisites": [
-      "CSCI 5413",
       "CSCI 4273"
     ]
   },
@@ -772,10 +713,9 @@
     "credits": "3",
     "description": "Explores chaotic dynamics theoretically and through computer simulations. Covers the standard computational and analytical tools used in nonlinear dynamics and concludes with an overview of leading-edge chaos research. Topics include time and phase-space dynamics, surfaces of section, bifurcation diagrams, fractal dimension and Lyapunov exponents.",
     "requisites": [
-      "CSCI 5446",
-      "ECEN 4423",
-      "ECEN 5423",
+      "ASEN 1320",
       "CSCI 1300",
+      "CSCI 1320",
       "CSCI 2275",
       "ECEN 1310",
       "APPM 2350",
@@ -796,7 +736,6 @@
     "credits": "3",
     "description": "An applied analysis and design class that addresses the use of object-oriented techniques. Topics include domain modeling, use cases, architectural design and modeling notations. Students apply the techniques in analysis and design projects.",
     "requisites": [
-      "CSCI 5448",
       "CSCI 3308"
     ]
   },
@@ -806,8 +745,6 @@
     "credits": "3",
     "description": "Introduces basic data mining concepts and techniques for discovering interesting patterns hidden in large-scale data sets, focusing on issues relating to effectiveness and efficiency. Topics covered include data preprocessing, data warehouse, association, classification, clustering, and mining specific data types such as time-series, social networks, multimedia, and Web data.",
     "requisites": [
-      "CSCI 5502",
-      "CSPB 4502",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -825,9 +762,6 @@
     "credits": "3",
     "description": "Introduces the principles and techniques for compiling high-level programming languages to assembly code. Topics include parsing, instruction selection, register allocation, and compiling high-level features such as polymorphism, first-class functions, and objects. Students build a complete compiler for a simple language.",
     "requisites": [
-      "ECEN 5523",
-      "ECEN 4553",
-      "CSCI 5525",
       "CSCI 3155"
     ]
   },
@@ -853,7 +787,6 @@
     "credits": "3",
     "description": "Introduces students to the field of virtual reality (VR). Covers the historical development of virtual reality technologies and virtual reality as a research field, the mathematics of 3D coordinate systems, fundamental principles, algorithms, and design patterns in developing interactive virtual environments, the perceptual science behind mixed reality technologies, and libraries and tools for creating VR experiences.",
     "requisites": [
-      "ATLS 4616",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -864,7 +797,6 @@
     "credits": "3",
     "description": "Introduces students to tools, methods, and theory to construct predictive and inferential models that learn from data. Focuses on supervised machine learning techniques including practical and theoretical understanding of the most widely used algorithms (decision trees, support vector machines, ensemble methods, and neural networks). Emphasizes both efficient implementation of algorithms and understanding of mathematical foundations.",
     "requisites": [
-      "CSPB 4622",
       "CSCI 3022",
       "CVEN 3227",
       "ECEN 3810",
@@ -880,7 +812,6 @@
     "credits": "3",
     "description": "Explores algorithms that can extract information about the world from images or sequences of images. Topics covered include: imaging models and camera calibration, early vision (filters, edges, texture, stereo, optical flow), mid-level vision (segmentation, tracking), vision-based control and object recognition.",
     "requisites": [
-      "CSCI 5722",
       "APPM 2360",
       "APPM 3310",
       "CSCI 2820",
@@ -905,9 +836,6 @@
     "credits": "3",
     "description": "Presents a broad range of system measurement and modeling techniques, emphasizing applications to computer systems. Covers topics including system measurement, workload characterization and analysis of data; design of experiments; queuing theory and queuing network models; and simulation.",
     "requisites": [
-      "CSCI 5753",
-      "ECEN 4753",
-      "ECEN 5753",
       "APPM 1360",
       "MATH 2300",
       "CSCI 3753"
@@ -919,7 +847,6 @@
     "credits": "1",
     "description": "Gives students hands-on experience applying data science techniques and machine learning algorithms to real-world problems. Students work in small teams on internal challenges, many of which will be sponsored by local companies and organizations and will represent the university in larger teams for external challenges at the national and global level, such as those hosted by Kaggle. Students will be expected to participate in both internal and external challenges, attend meetings and present short presentations to the group when appropriate.",
     "requisites": [
-      "CSCI 5802",
       "APPM 3310",
       "CSCI 2820",
       "MATH 2130",
@@ -975,7 +902,6 @@
     "credits": "3",
     "description": "Explores input and interaction techniques with an emphasis on universal design and alternative interfaces. Students explore traditional input methods such as keyboard and mouse input, and alternative techniques such as voice and eye gaze. Students conduct performance evaluations of existing techniques, and prototype new interaction methods. Students design technologies to support people with varying abilities and disabilities.",
     "requisites": [
-      "CSCI 5849",
       "CSCI 3002"
     ]
   },
@@ -984,9 +910,7 @@
     "title": "Computational and Mathematical Modeling of Infectious Diseases",
     "credits": "3",
     "description": "Explores the ways we model infectious diseases using math and computing, from the dynamic spread of infectious diseases between humans, to a pathogen's growth within the body. Learning goals include (i) gaining a mastery of both classic and modern infectious disease models (ii) learning about a variety of infectious diseases, and (iii) engaging with the ethics of infectious disease modeling. Requires beginner or advanced-beginner skill in Python or R.",
-    "requisites": [
-      "CSCI 5897"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 4900",
@@ -994,7 +918,9 @@
     "credits": "1-3",
     "description": "Provides opportunities for independent study at the upper-division undergraduate level. Students work on a small research problem. Department consent required.",
     "requisites": [
+      "ASEN 1320",
       "CSCI 1300",
+      "CSCI 1320",
       "CSCI 2275"
     ]
   },
@@ -1026,30 +952,21 @@
     "title": "Fundamentals of Data Communication",
     "credits": "3",
     "description": "Combining conceptual knowledge about data communications and core Internet technologies with hands-on labs that reinforce the conceptual knowledge, this course provides students with the ability to create innovative technology solutions in their discipline. Learning how the Internet works and being able to evaluate and operate an Internet network is a valuable skill; students in this course will have a competitive advantage in this foundational field.",
-    "requisites": [
-      "CYBR 5010"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5020",
     "title": "Fundamentals of Network Programming",
     "credits": "3",
     "description": "This course provides an immersion into the foundation theories of network programming and software development for emerging technologies. Students will gain direct experience with real-world programming lab experiments and demonstrations that will relate to the prolific increase of cross-discipline programming.",
-    "requisites": [
-      "CYBR 5020"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5030",
     "title": "Fundamentals of System Administration and Virtualization",
     "credits": "3",
     "description": "Introduces the basic use and administration of Unix and Linux systems. Topics include booting and system management, scripting, storage and logical volume management, filesystem configuration, account management and password security, process control, software installation, event logging and system auditing. Students will also develop familiarity with virtualization platforms such as VirtualBox and VMware to implement and test their system configurations.",
-    "requisites": [
-      "CYBR 5030",
-      "CSCI 5113",
-      "CYBR 5113",
-      "CSCI 4113"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5040",
@@ -1080,10 +997,6 @@
     "credits": "3",
     "description": "Introduces Linux system administration and related topics. Includes hardware and software installation, storage management, configuration of user accounts and system services, development of automation and monitoring tools, and the provisioning of common network services. This laboratory focused course will provide significant exposure to the network security concerns of Internet connected hosts. Students will build a network of Linux servers from the ground up, using provided computing resources, and must maintain and secure these servers themselves. Previously offered as a special topics course.",
     "requisites": [
-      "CYBR 5113",
-      "CSCI 4113",
-      "CYBR 5030",
-      "CSCI 5030",
       "CSCI 3753"
     ]
   },
@@ -1092,9 +1005,7 @@
     "title": "Practical Algorithmic Complexity",
     "credits": "3",
     "description": "When coming across an algorithmic problem, how do we think about how hard it is? Beyond just how much time or memory it takes, computational complexity offers a plethora of concepts for understanding this fundamental question. This leads to the appropriate choice of algorithm for the job, the development of new algorithms, and understanding the role of algorithmic complexity in natural settings such as biology and physics.",
-    "requisites": [
-      "CSCI 4114"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5122",
@@ -1109,7 +1020,6 @@
     "credits": "3",
     "description": "Covers two-level and multilevel minimization, optimization via expert systems, algebraic and Boolean decomposition, layout methodologies, state assignment, encoding and minimization, silicon compilation.",
     "requisites": [
-      "ECEN 5139",
       "ECEN 2703"
     ]
   },
@@ -1118,9 +1028,7 @@
     "title": "CLASIC Capstone",
     "credits": "2",
     "description": "In this capstone to the Computational Linguistics, Analytics, Search and Informatics (CLASIC) professional master¿s program, we will review each student¿s internship project and prepare presentations and technical reports based on those internships. Students will present their work on the annual Industry Day or at an Advisory Board meeting to industry representatives. They will also submit a paper to a relevant conference or workshop. Previously offered as a special topics course.",
-    "requisites": [
-      "LING 5140"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5160",
@@ -1172,20 +1080,14 @@
     "title": "Introduction to Robotics",
     "credits": "3",
     "description": "Introduction to Robotics prepares graduate students in the Robotics graduate program to be equipped with fundamental methods and tools in the field. This involves both a theoretical and a practical component, which are offered in a lecture and laboratory format.",
-    "requisites": [
-      "ROBO 5000"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5214",
     "title": "Big Data Architecture",
     "credits": "3",
     "description": "Provides students with a comprehensive survey of technologies used today in the collection, storage, processing, analytics and display of big data. Focuses on cultivating real world skills with students working on semester long projects to execute on a group project.",
-    "requisites": [
-      "ATLS 4214",
-      "ATLS 5214",
-      "CSCI 4214"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5220",
@@ -1193,8 +1095,6 @@
     "credits": "3",
     "description": "Emphasis on the IEEE P802.11 family of WLAN standards. Students learn the legacy versions of the standard (802.11DS/b), the current generation of WLAN systems (802.11a/g/n/ac), and will to analyze and critique upcoming versions (802.11ax/ba), and gain insight into proposals for new research in WLAN. Exposure to the interoperability and certification process for WLAN by the Wi-Fi Alliance, study the newest Wi-Fi Certified¿ programs, and will learn how to model and analyze WLAN traffic using industry standard tools.",
     "requisites": [
-      "CYBR 5220",
-      "ECEN 5122",
       "CYBR 5010",
       "CSCI 5010",
       "CSCI 5273",
@@ -1207,9 +1107,7 @@
     "title": "Computer Graphics",
     "credits": "3",
     "description": "Studies design, analysis and implementation of computer graphics techniques. Topics include interactive techniques, 3D viewing and models, clipping, transformations, projection, removal of hidden surfaces, lighting, textures and shadows. Knowledge of basic linear algebra is required.",
-    "requisites": [
-      "CSCI 4229"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5230",
@@ -1217,7 +1115,6 @@
     "credits": "3",
     "description": "This Wireless Solutions Architecture course is designed to examine the core concepts of wireless architecture, design and implementation. The course will focus on architecting solutions unlicensed technology, specifically enterprise Wi-Fi networks. Students will learn how to design, implement, troubleshoot and operate enterprise wireless networks.",
     "requisites": [
-      "CYBR 5230",
       "CSCI 5200",
       "CYBR 5200"
     ]
@@ -1228,7 +1125,6 @@
     "credits": "3",
     "description": "Studies design, analysis and implementation of advanced computer graphics techniques. Topics include shaders, using the GPU for high performance computing, graphics programming on embedded devices such as mobile phones; advanced graphics techniques such as ray tracing.",
     "requisites": [
-      "CSCI 4239",
       "CSCI 5229"
     ]
   },
@@ -1237,10 +1133,7 @@
     "title": "Introduction to Blockchain",
     "credits": "3",
     "description": "Examines an emerging technology known as blockchain. Blockchain refers to the distributed and decentralized database technology behind popular cryptocurrencies such as Bitcoin and Ethereum. However, it can be used to record and transfer any digital asset, not just currency. This course explores the fundamentals of blockchain technology and its application from three key perspectives: policy and governance, technology, and application. Students gain an understanding of key concepts and how to apply them in the industry. Previously offered as a special topics course.",
-    "requisites": [
-      "CYBR 5240",
-      "CSCI 4240"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5244",
@@ -1255,8 +1148,6 @@
     "credits": "3",
     "description": "Covers the primary problem solving strategies, methods and tools needed for data-intensive programs using large collections of computers typically called \"warehouse scale\" or \"data-center scale\" computers. Examines methods and algorithms for processing data-intensive applications, methods for deploying and managing large collections of computers in an on-demand infrastructure and issues of large-scale computer system design.",
     "requisites": [
-      "CSCI 4253",
-      "ECEN 5253",
       "CSCI 5273"
     ]
   },
@@ -1299,8 +1190,8 @@
     "credits": "3",
     "description": "Focuses on design and implementation of network programs and systems, including topics in network protocols, architectures, client-server computing, software-driven networking, and other contemporary network hardware-software system design and programming techniques. Familiarity with C and Unix is required.",
     "requisites": [
-      "ECEN 5273",
-      "CSCI 4273"
+      "CSCI 4273",
+      "CSCI 4573"
     ]
   },
   {
@@ -1318,13 +1209,10 @@
     "credits": "3",
     "description": "Exposes students to current research topics in the field of robotics and provides hands-on experience in solving a grand challenge program.",
     "requisites": [
-      "CSCI 4302",
-      "ROBO 5302",
       "CSCI 5202",
       "ROBO 5000",
       "ASEN 5254",
       "ASEN 5014",
-      "ASEN 5044",
       "MCEN 5448",
       "ECEN 5448",
       "CSCI 3302"
@@ -1343,9 +1231,6 @@
     "credits": "3",
     "description": "Introduces the theory and practice of multicore programming. The first part of the course presents foundations of concurrent programming: mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, memory consistency models. The second part presents a sequence of concurrent data structures and techniques used in their implementations (coarse-grained, fine-grained, optimistic and lock-free synchronization).",
     "requisites": [
-      "ECEN 5313",
-      "ECEN 4313",
-      "CSCI 4313",
       "CSCI 2270",
       "ECEN 2360",
       "CSCI 2400",
@@ -1357,9 +1242,7 @@
     "title": "Dynamic Models in Biology",
     "credits": "3",
     "description": "Surveys computational and mathematical modeling to illuminate biological processes. Students work together to learn to build and analyze models using a variety of numerical tools, tackle meaningful biological problems, and communicate effectively across disciplines. Specific topics: Langevin dynamics of protein folding, agent-based models, finite difference models of organismal growth, stochastic and deterministic cellular automata game of life, models of behavior.",
-    "requisites": [
-      "CSCI 4314"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5322",
@@ -1373,9 +1256,7 @@
     "title": "Startup Essentials: Entrepreneurial Projects in Computing",
     "credits": "3",
     "description": "Provides students with the tools to be successful technical co-founders of their own startups. Explores the initial stages of founding a startup, including team formation, idea validation, pivoting and pitching, while employing an iterative methodology. Student teams will develop a minimum viable product, pitch their final startup concept and be evaluated on product/market fit. CS coding concepts relevant for startups, including potentially cloud programming, mobile programming and agile software engineering, will be taught. Does not satisfy breadth requirement.",
-    "requisites": [
-      "CSCI 4348"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5350",
@@ -1383,7 +1264,6 @@
     "credits": "3",
     "description": "Follows CSCI 5340. In the second semester of this entrepreneurial project capstone, student teams will seek to find market traction for a high-fidelity Minimum Viable Product (MVP), software and/or hardware, that they will develop as part of their startup project. Teams will further learn to incorporate principles of marketing, business finance and legal issues into the business model for their startup concept. Does not satisfy breadth requirement.",
     "requisites": [
-      "CSCI 4358",
       "CSCI 5340"
     ]
   },
@@ -1421,27 +1301,21 @@
     "title": "Research Methods in Human-Robot Interaction",
     "credits": "3",
     "description": "Introduces students to the field of human-robot interaction (HRI). Covers HRI theory, principles, methodologies, and applications with links to robotics, artificial intelligence, human factors, human-computer interaction, design, cognitive psychology, education and other domains. Coursework includes readings from state-of-the-art in HRI research, team exercises and problem-solving sessions, and implementation and evaluation of a human-robot interaction systems for specific applications.",
-    "requisites": [
-      "ATLS 5402"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5403",
     "title": "Introduction to Computing Security",
     "credits": "3",
     "description": "Introduces core concepts in cybersecurity including confidentiality, integrity, authentication, risk management, and adversarial thinking. The concepts will be applied to both traditional information technology (IT) systems and cyber physical systems (CPS). At the conclusion of the course, students should have a solid foundation in cybersecurity and hands-on experience. Students must have access to either native or virtual machines running on Windows OR Linux (Parrot, Kali, Ubuntu).",
-    "requisites": [
-      "CYBR 5300"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5413",
     "title": "Computer Security and Ethical Hacking",
     "credits": "3",
     "description": "Teaches basic exploit design and development through hands-on experimentation and testing. Uses a controlled environment to give students a \"playground\" in which to test penetration skills that are normally not allowed on live networks.",
-    "requisites": [
-      "CSCI 4413"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5423",
@@ -1477,20 +1351,14 @@
     "title": "Chaotic Dynamics",
     "credits": "3",
     "description": "Explores chaotic dynamics theoretically and through computer simulations. Covers the standard computational and analytical tools used in nonlinear dynamics and concludes with an overview of leading-edge chaos research. Topics include time and phase-space dynamics, surfaces of section, bifurcation diagrams, fractal dimension and Lyapunov exponents.",
-    "requisites": [
-      "CSCI 4446",
-      "ECEN 4423",
-      "ECEN 5423"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5448",
     "title": "Object-Oriented Analysis and Design",
     "credits": "3",
     "description": "An applied analysis and design class addressing the use of object-oriented techniques. Topics include domain modeling, use cases, architectural design and modeling notations. Students apply the techniques in analysis and design projects.",
-    "requisites": [
-      "CSCI 4448"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5454",
@@ -1506,9 +1374,7 @@
     "title": "Data Mining",
     "credits": "3",
     "description": "Introduces basic data mining concepts and techniques for discovering interesting patterns hidden in large-scale data sets, focusing on issues relating to effectiveness and efficiency. Topics covered include data preprocessing, data warehouse, association, classification, clustering, and mining specific data types such as time-series, social networks, multimedia, and Web data.",
-    "requisites": [
-      "CSCI 4502"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5514",
@@ -1533,9 +1399,6 @@
     "credits": "3",
     "description": "Introduces the principles and techniques for compiling high-level programming languages to assembly code. Topics include parsing, instruction selection, register allocation, and compiling high-level features such as polymorphism, first-class functions, and objects. Students build a complete compiler for a simple language.",
     "requisites": [
-      "CSCI 4555",
-      "ECEN 4553",
-      "ECEN 5523",
       "CSCI 3155",
       "CSCI 2400",
       "ECEN 3350",
@@ -1558,7 +1421,6 @@
     "credits": "3",
     "description": "Considers concepts common to a variety of programming languages--how they are described (both formally and informally) and how they are implemented. Provides a firm basis for comprehending new languages and gives insight into the relationship between languages and machines.",
     "requisites": [
-      "ECEN 5533",
       "CSCI 3155"
     ]
   },
@@ -1568,7 +1430,6 @@
     "credits": "3",
     "description": "Intended to create a foundation for operating systems research or advanced professional practice. Examines the design and implementation of a number of research and commercial operating systems and their components, system organization and structure, threads, communication and synchronization, virtual memory, distribution, file systems, security and authentication, availability and Internet services.",
     "requisites": [
-      "ECEN 5573",
       "CSCI 2400",
       "CSCI 3753"
     ]
@@ -1578,9 +1439,7 @@
     "title": "High-Performance Scientific Computing",
     "credits": "4",
     "description": "Introduces computing systems, software and methods used to solve large-scale problems in science and engineering. Students use high-performance workstations and a supercomputer.",
-    "requisites": [
-      "CSCI 4576"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5593",
@@ -1588,8 +1447,6 @@
     "credits": "3",
     "description": "Provides a broad-scope treatment of important concepts in the design and implementation of high-performance computer systems. Discusses important issues in the pipelining of a processor, out-of-order instruction issue and superscalar designs, design of cache memory systems and architectural features required for multicore processor designs. Also studies current and historically important computer architectures, including hardware security concepts.",
     "requisites": [
-      "ECEN 5593",
-      "ECEN 4693",
       "CSCI 3593"
     ]
   },
@@ -1615,9 +1472,6 @@
     "credits": "3",
     "description": "Introduces students to the field of virtual reality (VR). Covers the historical development of virtual reality technologies and virtual reality as a research field, the mathematics of 3D coordinate systems, fundamental principles, algorithms, and design patterns in developing interactive virtual environments, the perceptual science behind mixed reality technologies, and libraries and tools for creating VR experiences. Previously offered as a special topics course.",
     "requisites": [
-      "CSCI 4616",
-      "ATLS 4616",
-      "ATLS 5616",
       "CSCI 2270",
       "CSCI 2275"
     ]
@@ -1628,7 +1482,6 @@
     "credits": "3",
     "description": "Provides a comprehensive, hands-on set of laboratory exercises for the teaching and demonstration of key technical skills required to understand, build, test, and analyze both analog and digital wireless communications concepts. In conjunction with lecture-based content to provide a solid foundation in digital communication theory, SDR-based laboratory exercises enable the synthesis of several fundamental concepts utilizing the latest, modern communications systems technologies.",
     "requisites": [
-      "CYBR 5620",
       "CSCI 5200",
       "CYBR 5200",
       "CSCI 5630",
@@ -1646,9 +1499,6 @@
       "APPM 3310",
       "CSCI 2820",
       "MATH 2130",
-      "MATH 2135",
-      "MATH 3130",
-      "MATH 3135",
       "APPM 3570",
       "CHEN 3010",
       "CSCI 3022",
@@ -1656,11 +1506,8 @@
       "ECEN 3810",
       "ECON 3818",
       "MATH 3510",
-      "MATH 4510",
       "MCEN 3047",
-      "STAT 3100",
-      "STAT 4000",
-      "STAT 4520"
+      "STAT 3100"
     ]
   },
   {
@@ -1669,7 +1516,6 @@
     "credits": "3",
     "description": "Studies technologies and architectures employed in modern cellular wireless systems. Major topics include radio propagation, multiple access techniques, analog and digital cellular telephony, and personal communications systems. Presents the necessary tools to understand the wireless industry, its technical details, and its business drivers. Topics include modeling, spectrum, weather, multipath, Doppler effect, and shadowing and covers important aspects of multiple access technologies such as CDMA and OFDMA. introduces modern radio standards including LTE.",
     "requisites": [
-      "CYBR 5630",
       "CSCI 5200",
       "CYBR 5200"
     ]
@@ -1714,7 +1560,6 @@
     "credits": "3",
     "description": "Examines systems that span multiple autonomous computers. Topics include system structuring techniques, scalability, heterogeneity, fault tolerance, load sharing, distributed file and information systems, naming, directory services, resource discovery, resource and network management, security, privacy, ethics and social issues.",
     "requisites": [
-      "ECEN 5673",
       "CSCI 5573"
     ]
   },
@@ -1739,40 +1584,28 @@
     "title": "Computer Vision",
     "credits": "3",
     "description": "Explores algorithms that can extract information about the world from images or sequences of images. Topics covered include: imaging models and camera calibration, early vision (filters, edges, texture, stereo, optical flow), mid-level vision (segmentation, tracking), vision-based control and object recognition.",
-    "requisites": [
-      "CSCI 4722"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5753",
     "title": "Computer Performance Modeling",
     "credits": "3",
     "description": "Presents a broad range of system measurement and modeling techniques, emphasizing applications to computer systems. Topics include system measurement, work load characterization and analysis of data; design of experiments; simulation; and queuing theory and queuing network models.",
-    "requisites": [
-      "CSCI 4753",
-      "ECEN 4753",
-      "ECEN 5753"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5802",
     "title": "Data Science Team Companion Course",
     "credits": "1",
     "description": "Gives students hands-on experience applying data science techniques and machine learning algorithms to real-world problems. Students work in small teams on internal challenges, many of which will be sponsored by local companies and organizations and will represent the university in larger teams for external challenges at the national and global level, such as those hosted by Kaggle. Students will be expected to participate in both internal and external challenges, attend meetings and present short presentations to the group when appropriate. Instructor consent required.",
-    "requisites": [
-      "CSCI 4802"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5809",
     "title": "Computer Animation",
     "credits": "3",
     "description": "Develops a firm understanding of the general principles of computer animation. Lectures cover the creation of models, materials, textures, surfaces, and lighting. Path and key frame animation, particle dynamics, and rendering are introduced. Students are assigned a number of animation tutorials to carry out.",
-    "requisites": [
-      "CSCI 4809",
-      "ATLS 4809",
-      "ATLS 5809"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5817",
@@ -1802,9 +1635,7 @@
     "title": "Natural Language Processing",
     "credits": "3",
     "description": "Explores the field of natural language processing as it is concerned with the theoretical and practical issues that arise in getting computers to perform useful and interesting tasks with natural language. Covers the problems of understanding complex language phenomena and building practical programs.",
-    "requisites": [
-      "LING 5832"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5839",
@@ -1828,7 +1659,6 @@
     "credits": "3",
     "description": "Explores input and interaction techniques, with an emphasis on universal design and alternative interfaces. Students will explore traditional input methods such as keyboard and mouse input, and alternative techniques such as voice and eye gaze. Students will conduct performance evaluations of existing techniques, and prototype new interaction methods. Students will design technologies to support people with varying abilities and disabilities.",
     "requisites": [
-      "CSCI 4849",
       "CSCI 3002",
       "CSCI 5839"
     ]
@@ -1845,9 +1675,7 @@
     "title": "Interactive Machine Learning for Customizable and Expressive Interfaces",
     "credits": "3",
     "description": "Introduces students to techniques for applying machine learning in the development of customizable human-computer interfaces. Students will learn to process a wide variety of input data (e.g. video and accelerometer streams), using different machine learning algorithms to detect semantically meaningful events that can afford the construction of new interactive systems. They will complete substantial projections within the domains of assistive or creative technologies. Does not fulfill Breadth Requirement for CSEN graduate students.",
-    "requisites": [
-      "ATLS 5880"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5897",
@@ -1868,9 +1696,7 @@
     "title": "HCC Survey and Synthesis: Foundations and Trajectories",
     "credits": "3",
     "description": "Examines the interdisciplinary field of human-centered computing through a comprehensive content and historical survey. Considers new trajectories of inquiry and how the field merges with others. Social computing, is emphasized as a central topic. Students across disciplines will find the course foundational for understanding human-centered technology matters, including computer scientists, information scientists, social scientists, and business and media arts students.",
-    "requisites": [
-      "INFO 5919"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 5922",
@@ -1925,7 +1751,7 @@
     "credits": "3",
     "description": "Learn the core principles of software engineering and design to make scientific software more robust and reproducible. This class targets quantitative scientists with programming skills (in any language) who want to use software in their research. We will cover the version control, testing, benchmarking, data structures, algorithms, and pipelines. This course opens computing to a variety of student disciplines, and is an advanced course in computing geared toward STEM. Instructor approval required for CS majors and CS minors. Previously offered as a special topics course.",
     "requisites": [
-      "CSCI 4118",
+      "ASEN 1320",
       "CSCI 1200",
       "CSCI 1300",
       "CSCI 2275",
@@ -1974,7 +1800,6 @@
     "credits": "3",
     "description": "Studies methods to protect information, and the ability to process and move information, from theft, misuse, tampering, destruction and unauthorized access. Introduces foundational topics of computer and network security, including security models, cryptography and authentication protocols.",
     "requisites": [
-      "TLEN 5550",
       "CSCI 5273"
     ]
   },
@@ -2002,13 +1827,7 @@
     "title": "Issues and Methods in Cognitive Science",
     "credits": "3",
     "description": "Interdisciplinary introduction to cognitive science, examining ideas from cognitive psychology, philosophy, education, and linguistics via computational modeling and psychological experimentation. Includes philosophy of mind; learning; categorization; vision and mental imagery; consciousness; problem solving; decision making, and game-theory; language processing; connectionism. No background in Computer Science will be presumed.",
-    "requisites": [
-      "EDUC 6504",
-      "LING 6200",
-      "PHIL 6310",
-      "PSYC 6200",
-      "SLHS 6402"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 6414",
@@ -2175,11 +1994,6 @@
     "credits": "2",
     "description": "Independent, interdisciplinary research project in cognitive science for advanced graduate students pursuing a joint PhD in an approved core discipline and cognitive science. Research projects integrate at least two areas within the cognitive sciences: psychology, computer science, linguistics, education, philosophy. Students need commitments from two mentors for their project.",
     "requisites": [
-      "PSYC 7415",
-      "EDUC 6506",
-      "LING 7415",
-      "PHIL 7415",
-      "SLHS 7418",
       "CSCI 6402",
       "EDUC 6504",
       "LING 6200",
@@ -2194,11 +2008,6 @@
     "credits": "2",
     "description": "Independent, interdisciplinary research project in cognitive science for advanced graduate students pursuing a joint PhD in an approved core discipline and cognitive science. Research projects integrate at least two areas within the cognitive sciences: psychology, computer science, linguistics, education, philosophy. Students need commitments from two mentors for their project.",
     "requisites": [
-      "PSYC 7425",
-      "EDUC 6516",
-      "LING 7425",
-      "PHIL 7425",
-      "SLHS 7428",
       "LING 7415",
       "PSYC 7415",
       "CSCI 7412",
@@ -2240,13 +2049,7 @@
     "title": "Topics in Cognitive Science",
     "credits": "1",
     "description": "Reading of interdisciplinary innovative theories and methodologies of cognitive science. Students participate in the ICS Distinguished Speakers series that hosts internationally recognized cognitive scientists who share and discuss their current research. Session discussions include analysis of leading edge and controversial new approaches in cognitive science.",
-    "requisites": [
-      "EDUC 7775",
-      "LING 7775",
-      "PHIL 7810",
-      "PSYC 7775",
-      "SLHS 7775"
-    ]
+    "requisites": []
   },
   {
     "code": "CSCI 7818",
