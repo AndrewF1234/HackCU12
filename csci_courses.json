@@ -19,13 +19,15 @@
     "credits": "4",
     "description": "Teaches techniques for writing computer programs in higher level programming languages to solve problems of interest in a range of application domains. Appropriate for students with little to no experience in computing or programming.",
     "requisites": [
-      "APPM 1235",
-      "APPM 1340",
-      "APPM 1345",
-      "APPM 1350",
-      "MATH 1150",
-      "MATH 1300",
-      "MATH 1310"
+      [
+        "APPM 1235",
+        "APPM 1340",
+        "APPM 1345",
+        "APPM 1350",
+        "MATH 1150",
+        "MATH 1300",
+        "MATH 1310"
+      ]
     ]
   },
   {
@@ -34,14 +36,18 @@
     "credits": "4",
     "description": "Studies data abstractions (e.g., stacks, queues, lists, trees, graphs, heaps, hash tables, priority queues) and their representation techniques (e.g., linking, arrays). Introduces concepts used in algorithm design and analysis including criteria for selecting data structures to fit their applications. Knowledge of C++ is highly recommended.",
     "requisites": [
-      "CSCI 1300",
-      "CSCI 1320",
-      "ECEN 1310",
-      "ASEN 1320",
-      "MATH 1300",
-      "MATH 1310",
-      "APPM 1345",
-      "APPM 1350"
+      [
+        "CSCI 1300",
+        "CSCI 1320",
+        "ECEN 1310",
+        "ASEN 1320"
+      ],
+      [
+        "MATH 1300",
+        "MATH 1310",
+        "APPM 1345",
+        "APPM 1350"
+      ]
     ]
   },
   {
@@ -50,10 +56,12 @@
     "credits": "4",
     "description": "Combines the content in CSCI 1300 and CSCI 2270 and is intended for students with experience with at least one object oriented programming language. Assumes knowledge of programming constructs- data types, conditionals, loops and classes. Students must pass a programming competency exam administered by the computer science department to take this class. The course includes an expedited instruction in the C++ programming language and then primarily focuses on the content in CSCI 2270: data abstractions (e.g., stacks, queues, lists, trees, graphs, heaps, hash tables, priority queues) and their representation techniques (e.g., linking, arrays). Introduces concepts used in algorithm design and analysis including criteria for selecting data structures to fit their applications.",
     "requisites": [
-      "MATH 1300",
-      "MATH 1310",
-      "APPM 1345",
-      "APPM 1350"
+      [
+        "MATH 1300",
+        "MATH 1310",
+        "APPM 1345",
+        "APPM 1350"
+      ]
     ]
   },
   {
@@ -62,8 +70,10 @@
     "credits": "4",
     "description": "Covers how programs are represented and executed by modern computers, including low-level machine representations of programs and data, an understanding of how computer components and the memory hierarchy influence performance.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -79,10 +89,14 @@
     "credits": "3",
     "description": "Introduces the fundamentals of linear algebra in the context of computer science applications. Includes vector spaces, matrices, linear systems, and eigenvalues. Includes the basics of floating point computation and numerical linear algebra.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "APPM 1360",
-      "MATH 2300"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ]
     ]
   },
   {
@@ -91,19 +105,22 @@
     "credits": "3",
     "description": "Covers foundational materials for computer science that is often assumed in advanced courses. Topics include set theory, Boolean algebra, functions and relations, graphs, propositional and predicate calculus, proofs, mathematical induction, recurrence relations, combinatorics, discrete probability. Focuses on examples based on diverse applications of computer science.",
     "requisites": [
-      "ASEN 1320",
-      "CSCI 1200",
-      "CSCI 1300",
-      "CSCI 1320",
-      "CSCI 2275",
-      "ECEN 1310",
-      "MCEN 1030",
-      "APPM 1345",
-      "APPM 1350",
-      "MATH 1300",
-      "MATH 1310",
-      "APPM 1360",
-      "MATH 2300"
+      [
+        "ASEN 1320",
+        "CSCI 1200",
+        "CSCI 1300",
+        "CSCI 1320",
+        "CSCI 2275",
+        "ECEN 1310",
+        "MCEN 1030"
+      ],
+      [
+        "APPM 1345",
+        "APPM 1350",
+        "MATH 1300",
+        "MATH 1310",
+        "APPM 1360"
+      ]
     ]
   },
   {
@@ -128,10 +145,12 @@
     "credits": "3",
     "description": "Master practical mathematical techniques for representing and analyzing biological quantities of different kinds. Develop mathematical intuition about biological calculations. Learn to model and solve simple feedback processes. Learn to model and solve simple accumulation processes. Learn to model and decompose simple vector spaces. Learn standard approximation and optimization strategies. Adapt and combine methods to solve real-world problems. Background in biology not required. This course is intended for students who are interested in Computational Biology, but will not take Differential Equations (APPM 2360/MATH 3430) as part of their degree plan. Does not count as Computer Science credit for for the Computer Science BA, BS or minor.",
     "requisites": [
-      "APPM 1345",
-      "APPM 1350",
-      "MATH 1300",
-      "MATH 1310"
+      [
+        "APPM 1345",
+        "APPM 1350",
+        "MATH 1300",
+        "MATH 1310"
+      ]
     ]
   },
   {
@@ -147,8 +166,10 @@
     "credits": "4",
     "description": "Introduces the practice and research of human-computer interaction, including its history, theories, the techniques of user-centered design, and the development of interactive technologies. Covers computing in society at large with respect to domains such as health, education, assistive technology, ethics, environment, and more.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -157,8 +178,10 @@
     "credits": "3",
     "description": "Explores concepts and techniques for design and construction of larger, reliable, and maintainable software systems in the context of object-oriented programming. Covers various topics including: object-oriented programming paradigms, scope, inheritance, program structure and design, practical use of version control, working with established code bases, and building graphical user interfaces. Emphasizes coding individually and in pairs and includes in class lab work, smaller coding assignments, and multiple weeks-long projects. Not intended for students in their final year of the Computer Science BA or BS degree. Formerly offered as a special topics course.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
       "CSCI 3308"
     ]
   },
@@ -168,14 +191,20 @@
     "credits": "3",
     "description": "Introduces students to the tools, methods and theory behind extracting insights from data. Covers algorithms of cleaning and munging data, probability theory and common distributions, statistical simulation, drawing inferences from data, and basic statistical modeling.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "APPM 1360",
-      "MATH 2300",
-      "CSCI 2824",
-      "ECEN 2703",
-      "APPM 3170",
-      "MATH 2001"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ],
+      [
+        "CSCI 2824",
+        "ECEN 2703",
+        "APPM 3170",
+        "MATH 2001"
+      ]
     ]
   },
   {
@@ -184,11 +213,13 @@
     "credits": "3",
     "description": "Covers the basics of quantum computation, including the basics of quantum information; axioms of quantum mechanics; quantum circuits and universality; the relationship between quantum and classical complexity classes; simple quantum algorithms such as the quantum Fourier transform; Shor factoring algorithm; Grover search algorithm; physical implementation of quantum computation; error correction and fault tolerance.",
     "requisites": [
-      "APPM 2360",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135"
+      [
+        "APPM 2360",
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135"
+      ]
     ]
   },
   {
@@ -204,14 +235,20 @@
     "credits": "4",
     "description": "Covers the fundamentals of algorithms and various algorithmic strategies, including time and space complexity, sorting algorithms, recurrence relations, divide and conquer algorithms, greedy algorithms, dynamic programming, linear programming, graph algorithms, problems in P and NP, and approximation algorithms.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "APPM 1360",
-      "MATH 2300",
-      "CSCI 2824",
-      "ECEN 2703",
-      "APPM 3170",
-      "MATH 2001"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ],
+      [
+        "CSCI 2824",
+        "ECEN 2703",
+        "APPM 3170",
+        "MATH 2001"
+      ]
     ]
   },
   {
@@ -220,8 +257,10 @@
     "credits": "1",
     "description": "Supports students in developing professional skills and practices in computing, including: preparing for technical and behavioral interviews, professional networking, mastering new technologies not addressed in the curriculum, presenting work, the role of graduate study, and exploring career and research directions.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -239,15 +278,21 @@
     "credits": "4",
     "description": "Studies principles governing the design and analysis of programming languages and their underlying execution models. Explores values, scoping, recursion, higher-order functions, type systems, control structures, and objects. Introduces formal semantics as a framework for understanding programming features. Introduces advanced programming concepts such as functional programming, higher-order functions, immutable values and structures, inductive types, functors, continuation-passing; and object-oriented programming using inheritance, generics and covariance/contravariance in a functional programming language such as Scala.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350",
-      "CSCI 2824",
-      "ECEN 2703",
-      "APPM 3170",
-      "MATH 2001"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ],
+      [
+        "CSCI 2824",
+        "ECEN 2703",
+        "APPM 3170",
+        "MATH 2001"
+      ]
     ]
   },
   {
@@ -256,22 +301,22 @@
     "credits": "3",
     "description": "Surveys artificial intelligence techniques of search, knowledge representation and reasoning, probabilistic inference, machine learning, and natural language. Knowledge of Python is strongly recommended.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "APPM 3170",
-      "CSCI 2824",
-      "ECEN 2703",
-      "MATH 2001",
-      "APPM 3570",
-      "CHEN 3010",
-      "CSCI 3022",
-      "CVEN 3227",
-      "ECEN 3810",
-      "ECON 3818",
-      "MATH 3510",
-      "MATH 4510",
-      "STAT 3100",
-      "STAT 4000"
+      [
+        "CSCI 2270",
+        "CSCI 2275",
+        "APPM 3170",
+        "CSCI 2824",
+        "ECEN 2703",
+        "MATH 2001",
+        "APPM 3570",
+        "CHEN 3010",
+        "CSCI 3022",
+        "CVEN 3227",
+        "ECEN 3810",
+        "ECON 3818",
+        "MATH 3510",
+        "MATH 4510"
+      ]
     ]
   },
   {
@@ -280,8 +325,10 @@
     "credits": "3",
     "description": "Introduces the fundamental concepts of database requirements analysis, database design, and database implementation with emphasis on the relational model and the SQL programming language. Introduces the concepts of Big Data and NoSQL systems.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -290,17 +337,23 @@
     "credits": "3",
     "description": "Introduces students to fundamental concepts in autonomous robotics: mechanisms, locomotion, kinematics, control, perception and planning. Consists of lectures and lab sessions that are geared toward developing a complete navigation stack on a miniature mobile robotic platform.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "APPM 3170",
-      "CSCI 2824",
-      "ECEN 2703",
-      "MATH 2001",
-      "APPM 2360",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "APPM 3170",
+        "CSCI 2824",
+        "ECEN 2703",
+        "MATH 2001"
+      ],
+      [
+        "APPM 2360",
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135"
+      ]
     ]
   },
   {
@@ -309,8 +362,10 @@
     "credits": "3",
     "description": "Covers tools and techniques for successful software development with a strong focus on best practices used in industry. Students work in small teams to complete a semester-long application development project. Students learn front-end design and construction using HTML & CSS, back-end database design and construction, and full-stack integration. Students gain exposure to agile methodologies, web services, distributed version control, requirements definition, automated integration testing, and cloud-based application deployment.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -326,9 +381,11 @@
     "credits": "4",
     "description": "Introduces core concepts in cybersecurity including confidentiality, integrity, authentication, risk management, and adversarial thinking. The concepts will be applied to both traditional information technology (IT) systems and cyber physical systems (CPS). At the conclusion of the course students should have a solid foundation in cybersecurity and hands-on experience.",
     "requisites": [
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350"
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ]
     ]
   },
   {
@@ -346,9 +403,11 @@
     "credits": "3",
     "description": "Studies computer design at the microarchitecture level. Discusses instruction set architecture design, arithmetic and logic unit design, control logic, memory design and caches, simple pipelining, I/O and peripheral devices. Briefly covers aspects of modern computer architecture, such as multicore processors and hardware security.",
     "requisites": [
-      "ECEN 2360",
-      "ECEN 3350",
-      "CSCI 2400"
+      [
+        "ECEN 2360",
+        "ECEN 3350",
+        "CSCI 2400"
+      ]
     ]
   },
   {
@@ -357,18 +416,24 @@
     "credits": "3",
     "description": "Covers development, computer implementation, and analysis of numerical methods for applied mathematical problems. Explores topics such as floating point arithmetic, numerical solution of linear systems of equations, root finding, numerical interpolation, differentiation, and integration.",
     "requisites": [
-      "ASEN 1320",
-      "CSCI 1300",
-      "CSCI 1320",
-      "CSCI 2275",
-      "ECEN 1310",
-      "APPM 1360",
-      "MATH 2300",
-      "APPM 2360",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135"
+      [
+        "ASEN 1320",
+        "CSCI 1300",
+        "CSCI 1320",
+        "CSCI 2275",
+        "ECEN 1310"
+      ],
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ],
+      [
+        "APPM 2360",
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135"
+      ]
     ]
   },
   {
@@ -384,11 +449,15 @@
     "credits": "4",
     "description": "Analyzes the software that extends hardware to provide a computing environment, including the role of linkers, file systems, resource sharing, security and networking. Studies the history of operating system organization and design and their influence on security, functionality and reliability.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ]
     ]
   },
   {
@@ -397,12 +466,16 @@
     "credits": "3",
     "description": "Explores the theoretical and practical issues that arise in getting computers to perform useful and interesting tasks with human languages. Topics include information extraction, dialog systems and machine translation. Focus is on the use of language data and machine learning algorithms to build robust systems.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "CSCI 2824",
-      "MATH 2001",
-      "ECEN 2703",
-      "APPM 3170"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "CSCI 2824",
+        "MATH 2001",
+        "ECEN 2703",
+        "APPM 3170"
+      ]
     ]
   },
   {
@@ -411,20 +484,22 @@
     "credits": "3",
     "description": "Introduces students to advanced tools, methods, and theory for extracting insights from data. Covers computational tools for storing and working with large data sets and computational techniques for common big data scenarios like graph data, recommender systems, and dimensionality reduction. Emphasizes both the efficient implementation of algorithms as well as the mathematical foundations behind techniques.",
     "requisites": [
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135",
-      "APPM 3570",
-      "CHEN 3010",
-      "CVEN 3227",
-      "MATH 3510",
-      "MATH 4510",
-      "ECEN 3810",
-      "ECON 3818",
-      "STAT 3100",
-      "STAT 4000",
-      "CSCI 3104"
+      [
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135",
+        "APPM 3570",
+        "CHEN 3010",
+        "CVEN 3227",
+        "MATH 3510",
+        "MATH 4510",
+        "ECEN 3810",
+        "ECON 3818",
+        "STAT 3100",
+        "STAT 4000",
+        "CSCI 3104"
+      ]
     ]
   },
   {
@@ -452,11 +527,13 @@
     "description": "Learn the core principles of software engineering to develop scientific software that is robust and reproducible. This class targets quantitative scientists in any discipline who have programming skills (any language) and want to use software to further their research. The course covers version control, testing, benchmarking, data structures, algorithms, and pipelines. Instructor approval is required for CS majors and CS minors.",
     "requisites": [
       "ASEN 1320",
-      "CSCI 1200",
-      "CSCI 1300",
-      "CSCI 2275",
-      "ECEN 1310",
-      "INFO 1201"
+      [
+        "CSCI 1200",
+        "CSCI 1300",
+        "CSCI 2275",
+        "ECEN 1310",
+        "INFO 1201"
+      ]
     ]
   },
   {
@@ -465,13 +542,15 @@
     "credits": "3",
     "description": "Practice thinking like an attacker by exploring several modern computer security attacks and defenses through hands-on programming projects. Topics include applied cryptography (encryption, authentication), web security (XSS, CSRF, SQL Injection), network security (TLS, MITM attacks), application security (shell injection, buffer overflows), and other current events and trends (government surveillance, botnets, cryptocurrencies).",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350",
-      "CSCI 4593",
-      "CSCI 3593"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ]
     ]
   },
   {
@@ -480,22 +559,25 @@
     "credits": "3",
     "description": "Overviews the distinctive characteristics of the wireless communications medium. Topics covered include: Analog signals, Antennas and Propagation, Digital Signals, Sampling, Quadrature Signals, Digital Modulation, SNR and SINR Concepts, Channel Models, Channel Statistics, and Link Budgets. The course includes an introduction to MIMO and beam-forming as implemented in modern communication systems. Software Defined Radio (SDR) is introduced to facilitate student hands-on learning of radio operation. Recommended: Familiarity with basic programming, statistics, and computer networking concepts. Formerly CYBR 4200.",
     "requisites": [
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350",
-      "APPM 3570",
-      "CHEN 3010",
-      "CSCI 3022",
-      "CVEN 3227",
-      "ECEN 3810",
-      "ECON 3818",
-      "MATH 3510",
-      "MATH 4510",
-      "MCEN 3047",
-      "STAT 3100",
-      "STAT 4000",
-      "STAT 4520",
-      "PHYS 1120"
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ],
+      [
+        "APPM 3570",
+        "CHEN 3010",
+        "CSCI 3022",
+        "CVEN 3227",
+        "ECEN 3810",
+        "ECON 3818",
+        "MATH 3510",
+        "MATH 4510",
+        "MCEN 3047",
+        "STAT 3100",
+        "STAT 4000",
+        "STAT 4520"
+      ]
     ]
   },
   {
@@ -504,8 +586,10 @@
     "credits": "3",
     "description": "Provides students with a comprehensive survey of technologies used today in the collection, storage, processing, analytics and display of big data. Focuses on cultivating real world skills with students working on semester long projects to execute on a group project.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -514,8 +598,10 @@
     "credits": "3",
     "description": "Studies design, analysis and implementation of computer graphics techniques. Topics include interactive techniques, 3D viewing and models, clipping, transformations, projection, removal of hidden surfaces, lighting, textures and shadows. Knowledge of basic linear algebra is required.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -533,12 +619,16 @@
     "credits": "3",
     "description": "Examines an emerging technology known as blockchain. Blockchain refers to the distributed and decentralized database technology behind popular cryptocurrencies such as Bitcoin and Ethereum. However, it can be used to record and transfer any digital asset, not just currency. This course explores the fundamentals of blockchain technology and its application from three key perspectives: policy and governance, technology, and application. Students gain an understanding of key concepts and how to apply them in the industry.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275",
-      "CSCI 2824",
-      "ECEN 2703",
-      "APPM 3170",
-      "MATH 2001"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ],
+      [
+        "CSCI 2824",
+        "ECEN 2703",
+        "APPM 3170",
+        "MATH 2001"
+      ]
     ]
   },
   {
@@ -554,8 +644,7 @@
     "credits": "3",
     "description": "Covers the primary problem solving strategies, methods and tools needed for data-intensive programs using large collections of computers typically called \"warehouse scale\" or \"data-center scale\" computers. Examines methods and algorithms for processing data-intensive applications, methods for deploying and managing large collections of computers in an on-demand infrastructure and issues of large-scale computer system design.",
     "requisites": [
-      "CSCI 3753",
-      "CSCI 4273"
+      "CSCI 3753"
     ]
   },
   {
@@ -598,9 +687,10 @@
     "credits": "3",
     "description": "Introduces the theory and practice of multicore programming. The first part of the course presents foundations of concurrent programming: mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, memory consistency models. The second part presents a sequence of concurrent data structures and techniques used in their implementations (coarse-grained, fine-grained, optimistic and lock-free synchronization).",
     "requisites": [
-      "CSCI 2400",
-      "ECEN 3593",
-      "CSCI 3593"
+      [
+        "CSCI 2400",
+        "ECEN 3593"
+      ]
     ]
   },
   {
@@ -609,17 +699,19 @@
     "credits": "3",
     "description": "Surveys computational and mathematical modeling to illuminate biological processes. Students work together to learn to build and analyze models using a variety of numerical tools, tackle meaningful biological problems, and communicate effectively across disciplines. Specific topics: Langevin dynamics of protein folding, agent-based models, finite difference models of organismal growth, stochastic and deterministic cellular automata game of life, models of behavior.",
     "requisites": [
-      "APPM 3650",
-      "ASTR 2600",
-      "CSCI 2270",
-      "CSCI 2275",
-      "INFO 2201",
-      "PHYS 2600",
-      "CSCI 2820",
-      "CSCI 2897",
-      "MATH 2130",
-      "MATH 2135",
-      "APPM 2360",
+      [
+        "APPM 3650",
+        "ASTR 2600",
+        "CSCI 2270",
+        "CSCI 2275",
+        "INFO 2201",
+        "PHYS 2600",
+        "CSCI 2820",
+        "CSCI 2897",
+        "MATH 2130",
+        "MATH 2135",
+        "APPM 2360"
+      ],
       "APPM 3310"
     ]
   },
@@ -629,8 +721,10 @@
     "credits": "4",
     "description": "Second semester of a senior capstone course in computer science. Students must take this course and CSCI 4308 or 4328 contiguously as the project spans the entire academic year.",
     "requisites": [
-      "CSCI 4308",
-      "CSCI 4328"
+      [
+        "CSCI 4308",
+        "CSCI 4328"
+      ]
     ]
   },
   {
@@ -694,16 +788,20 @@
     "credits": "3",
     "description": "Covers the basic concepts of genetics and genomics and how DNA analysis problems translate into computational problems. Covers core algorithms such as genome assembly, string matching, string indexing, and string set comparisons. Covers core data structures such as suffix trees and tries, FM index, and Bloom Filters.",
     "requisites": [
-      "APPM 3650",
-      "ASTR 2600",
-      "CSCI 2270",
-      "CSCI 2275",
-      "INFO 2201",
-      "PHYS 2600",
-      "APPM 1350",
-      "MATH 1300",
-      "MATH 1310",
-      "APPM 1340",
+      [
+        "APPM 3650",
+        "ASTR 2600",
+        "CSCI 2270",
+        "CSCI 2275",
+        "INFO 2201",
+        "PHYS 2600"
+      ],
+      [
+        "APPM 1350",
+        "MATH 1300",
+        "MATH 1310",
+        "APPM 1340"
+      ],
       "APPM 1345"
     ]
   },
@@ -713,21 +811,26 @@
     "credits": "3",
     "description": "Explores chaotic dynamics theoretically and through computer simulations. Covers the standard computational and analytical tools used in nonlinear dynamics and concludes with an overview of leading-edge chaos research. Topics include time and phase-space dynamics, surfaces of section, bifurcation diagrams, fractal dimension and Lyapunov exponents.",
     "requisites": [
-      "ASEN 1320",
-      "CSCI 1300",
-      "CSCI 1320",
-      "CSCI 2275",
-      "ECEN 1310",
-      "APPM 2350",
-      "MATH 2400",
+      [
+        "ASEN 1320",
+        "CSCI 1300",
+        "CSCI 1320",
+        "CSCI 2275",
+        "ECEN 1310"
+      ],
+      [
+        "APPM 2350",
+        "MATH 2400"
+      ],
       "PHYS 1120",
-      "CSCI 3656",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135",
-      "MATH 3130",
-      "MATH 3135"
+      [
+        "CSCI 3656",
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135",
+        "MATH 3130"
+      ]
     ]
   },
   {
@@ -745,8 +848,10 @@
     "credits": "3",
     "description": "Introduces basic data mining concepts and techniques for discovering interesting patterns hidden in large-scale data sets, focusing on issues relating to effectiveness and efficiency. Topics covered include data preprocessing, data warehouse, association, classification, clustering, and mining specific data types such as time-series, social networks, multimedia, and Web data.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -787,8 +892,10 @@
     "credits": "3",
     "description": "Introduces students to the field of virtual reality (VR). Covers the historical development of virtual reality technologies and virtual reality as a research field, the mathematics of 3D coordinate systems, fundamental principles, algorithms, and design patterns in developing interactive virtual environments, the perceptual science behind mixed reality technologies, and libraries and tools for creating VR experiences.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -797,13 +904,10 @@
     "credits": "3",
     "description": "Introduces students to tools, methods, and theory to construct predictive and inferential models that learn from data. Focuses on supervised machine learning techniques including practical and theoretical understanding of the most widely used algorithms (decision trees, support vector machines, ensemble methods, and neural networks). Emphasizes both efficient implementation of algorithms and understanding of mathematical foundations.",
     "requisites": [
-      "CSCI 3022",
-      "CVEN 3227",
-      "ECEN 3810",
-      "ECON 3818",
-      "MATH 3510",
-      "MCEN 3047",
-      "STAT 3100"
+      [
+        "CSCI 3022",
+        "CVEN 3227"
+      ]
     ]
   },
   {
@@ -812,22 +916,25 @@
     "credits": "3",
     "description": "Explores algorithms that can extract information about the world from images or sequences of images. Topics covered include: imaging models and camera calibration, early vision (filters, edges, texture, stereo, optical flow), mid-level vision (segmentation, tracking), vision-based control and object recognition.",
     "requisites": [
-      "APPM 2360",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135",
-      "CSCI 3104",
-      "CSCI 3022",
-      "APPM 3570",
-      "STAT 4520",
-      "STAT 4000",
-      "CHEN 3010",
-      "CVEN 3227",
-      "MATH 3510",
-      "MATH 4510",
-      "ECEN 3810",
-      "ECON 3818"
+      [
+        "APPM 2360",
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135"
+      ],
+      [
+        "CSCI 3104",
+        "CSCI 3022",
+        "APPM 3570",
+        "STAT 4520",
+        "STAT 4000",
+        "CHEN 3010",
+        "CVEN 3227",
+        "MATH 3510",
+        "MATH 4510",
+        "ECEN 3810"
+      ]
     ]
   },
   {
@@ -836,8 +943,10 @@
     "credits": "3",
     "description": "Presents a broad range of system measurement and modeling techniques, emphasizing applications to computer systems. Covers topics including system measurement, workload characterization and analysis of data; design of experiments; queuing theory and queuing network models; and simulation.",
     "requisites": [
-      "APPM 1360",
-      "MATH 2300",
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ],
       "CSCI 3753"
     ]
   },
@@ -847,22 +956,7 @@
     "credits": "1",
     "description": "Gives students hands-on experience applying data science techniques and machine learning algorithms to real-world problems. Students work in small teams on internal challenges, many of which will be sponsored by local companies and organizations and will represent the university in larger teams for external challenges at the national and global level, such as those hosted by Kaggle. Students will be expected to participate in both internal and external challenges, attend meetings and present short presentations to the group when appropriate.",
     "requisites": [
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135",
-      "APPM 3570",
-      "CHEN 3010",
-      "CSCI 3022",
-      "CVEN 3227",
-      "ECEN 3810",
-      "ECON 3818",
-      "MATH 3510",
-      "MATH 4510",
-      "MCEN 3047",
-      "STAT 3100",
-      "STAT 4000",
-      "STAT 4520"
+      "APPM 3310"
     ]
   },
   {
@@ -878,9 +972,11 @@
     "credits": "1-4",
     "description": "Covers topics of interest in computer science at the senior undergraduate level. Content varies from semester to semester. Only 9 credit hours from CSCI 4830 and/or CSCI 4831 can count toward Computer Science BS or BA.",
     "requisites": [
-      "CSCI 2400",
-      "ECEN 2360",
-      "ECEN 3350"
+      [
+        "CSCI 2400",
+        "ECEN 2360",
+        "ECEN 3350"
+      ]
     ]
   },
   {
@@ -890,10 +986,12 @@
     "description": "Covers topics of interest in computer science at the upper-division undergraduate level. Content varies from semester to semester. Only 9 credit hours from CSCI 4830 and/or CSCI 4831 can count toward Computer Science BS or BA.",
     "requisites": [
       "CSCI 3104",
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "MATH 2135"
+      [
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "MATH 2135"
+      ]
     ]
   },
   {
@@ -918,10 +1016,12 @@
     "credits": "1-3",
     "description": "Provides opportunities for independent study at the upper-division undergraduate level. Students work on a small research problem. Department consent required.",
     "requisites": [
-      "ASEN 1320",
-      "CSCI 1300",
-      "CSCI 1320",
-      "CSCI 2275"
+      [
+        "ASEN 1320",
+        "CSCI 1300",
+        "CSCI 1320",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -1043,11 +1143,13 @@
     "credits": "3",
     "description": "Explores practical usage and conceptual underpinnings of link state and distance vector routing protocols. The course further explores a holistic view of how the Internet works from a technical routing aspect as well as policy and economics. The course is supplemented with frequent labs to fully explore the specific workings of the routing protocols RIP, OSPF, and BGP and the relationships between them in practical lab based routing scenarios.",
     "requisites": [
-      "CSCI 5010",
-      "CYBR 5010",
-      "CSCI 4273",
-      "CSCI 5273",
-      "ECEN 5273"
+      [
+        "CSCI 5010",
+        "CYBR 5010",
+        "CSCI 4273",
+        "CSCI 5273",
+        "ECEN 5273"
+      ]
     ]
   },
   {
@@ -1063,9 +1165,11 @@
     "credits": "3",
     "description": "Provides an in-depth immersion into the foundational theories and technologies of Voice Over IP (VoIP). This course supplements these theories with direct experience through real-world, hands-on lab experiments and demonstrations. The fundamentals of voice technologies, services, and tools used in industry to design, deploy and troubleshoot VoIP networks will be explored in detail, providing the student with a competitive advantage in the job market.",
     "requisites": [
-      "CSCI 5170",
-      "CSCI 5160",
-      "CSCI 5180"
+      [
+        "CSCI 5170",
+        "CSCI 5160",
+        "CSCI 5180"
+      ]
     ]
   },
   {
@@ -1095,11 +1199,12 @@
     "credits": "3",
     "description": "Emphasis on the IEEE P802.11 family of WLAN standards. Students learn the legacy versions of the standard (802.11DS/b), the current generation of WLAN systems (802.11a/g/n/ac), and will to analyze and critique upcoming versions (802.11ax/ba), and gain insight into proposals for new research in WLAN. Exposure to the interoperability and certification process for WLAN by the Wi-Fi Alliance, study the newest Wi-Fi Certified¿ programs, and will learn how to model and analyze WLAN traffic using industry standard tools.",
     "requisites": [
-      "CYBR 5010",
-      "CSCI 5010",
-      "CSCI 5273",
-      "CYBR 5200",
-      "CSCI 5200"
+      [
+        "CYBR 5010",
+        "CSCI 5010",
+        "CSCI 5273",
+        "CYBR 5200"
+      ]
     ]
   },
   {
@@ -1115,8 +1220,10 @@
     "credits": "3",
     "description": "This Wireless Solutions Architecture course is designed to examine the core concepts of wireless architecture, design and implementation. The course will focus on architecting solutions unlicensed technology, specifically enterprise Wi-Fi networks. Students will learn how to design, implement, troubleshoot and operate enterprise wireless networks.",
     "requisites": [
-      "CSCI 5200",
-      "CYBR 5200"
+      [
+        "CSCI 5200",
+        "CYBR 5200"
+      ]
     ]
   },
   {
@@ -1180,8 +1287,10 @@
     "credits": "3",
     "description": "Focuses on the design and implementation of network solutions according to the needs of a client. The course helps students develop skills to be a consultant and walks them through the complete life cycle of network project development as a member of a professional services team. Implement fundamentals of IP Routing Protocols and apply them directly to design based networking problems. Design scenarios will incorporate physical and logical design, financial analysis, and laboratory configuration.",
     "requisites": [
-      "CSCI 5170",
-      "CSCI 5160"
+      [
+        "CSCI 5170",
+        "CSCI 5160"
+      ]
     ]
   },
   {
@@ -1209,13 +1318,17 @@
     "credits": "3",
     "description": "Exposes students to current research topics in the field of robotics and provides hands-on experience in solving a grand challenge program.",
     "requisites": [
-      "CSCI 5202",
-      "ROBO 5000",
-      "ASEN 5254",
-      "ASEN 5014",
-      "MCEN 5448",
-      "ECEN 5448",
-      "CSCI 3302"
+      [
+        "CSCI 5202",
+        "ROBO 5000",
+        "ASEN 5254"
+      ],
+      [
+        "ASEN 5014",
+        "MCEN 5448",
+        "ECEN 5448",
+        "CSCI 3302"
+      ]
     ]
   },
   {
@@ -1232,9 +1345,10 @@
     "description": "Introduces the theory and practice of multicore programming. The first part of the course presents foundations of concurrent programming: mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, memory consistency models. The second part presents a sequence of concurrent data structures and techniques used in their implementations (coarse-grained, fine-grained, optimistic and lock-free synchronization).",
     "requisites": [
       "CSCI 2270",
-      "ECEN 2360",
-      "CSCI 2400",
-      "ECEN 3593"
+      [
+        "ECEN 2360",
+        "CSCI 2400"
+      ]
     ]
   },
   {
@@ -1283,8 +1397,7 @@
     "credits": "3",
     "description": "This course presents advanced networking design and implementation techniques through experiments with network measurement equipment, switches, router, and management interfaces. The course primarily focuses on Service Provider Transport technologies for capacity, scalability and fault tolerance. Students learn the essential network architectures of last mile and long haul network solutions used for public and private network traffic transport; implementation of SLAs, load balancing, first hop redundancy, and MPLS transport and L2/L3 VPN solutions. This course requires an average of 6 hours per week in the lab. Most lab exercises involve activities which require physical access to the hardware and cannot be done remotely. In addition to the lab time, students should also anticipate up to 6 additional hours of time for homework, reading, lab preparation and studying for exams.",
     "requisites": [
-      "CSCI 5160",
-      "CSCI 5170"
+      "CSCI 5160"
     ]
   },
   {
@@ -1332,11 +1445,15 @@
     "credits": "3",
     "description": "This course will introduce computer science students to topics in probability and statistics that will be useful in other computer science courses. Basic concepts in probability will be taught from an algorithmic and computational point of view, with examples drawn from computer science.",
     "requisites": [
-      "APPM 1360",
-      "MATH 2300",
-      "CSCI 2824",
-      "MATH 2001",
-      "ECEN 2703"
+      [
+        "APPM 1360",
+        "MATH 2300"
+      ],
+      [
+        "CSCI 2824",
+        "MATH 2001",
+        "ECEN 2703"
+      ]
     ]
   },
   {
@@ -1389,8 +1506,7 @@
     "credits": "3",
     "description": "Introduce students to the modern techniques used in cyber-attacks and defenses. Topics covered: Stack canary, ASLR, SMEP/SMAP, CFI, Program Misusing, ROP, JOP, ret2lib, off-by-one, unsafe-unlink, UAF, ptmalloc, t-cache, Race condition, Kernel Exploitation.",
     "requisites": [
-      "CSCI 2400",
-      "ECEN 4133"
+      "CSCI 2400"
     ]
   },
   {
@@ -1400,9 +1516,10 @@
     "description": "Introduces the principles and techniques for compiling high-level programming languages to assembly code. Topics include parsing, instruction selection, register allocation, and compiling high-level features such as polymorphism, first-class functions, and objects. Students build a complete compiler for a simple language.",
     "requisites": [
       "CSCI 3155",
-      "CSCI 2400",
-      "ECEN 3350",
-      "ECEN 2360"
+      [
+        "CSCI 2400",
+        "ECEN 3350"
+      ]
     ]
   },
   {
@@ -1472,8 +1589,10 @@
     "credits": "3",
     "description": "Introduces students to the field of virtual reality (VR). Covers the historical development of virtual reality technologies and virtual reality as a research field, the mathematics of 3D coordinate systems, fundamental principles, algorithms, and design patterns in developing interactive virtual environments, the perceptual science behind mixed reality technologies, and libraries and tools for creating VR experiences. Previously offered as a special topics course.",
     "requisites": [
-      "CSCI 2270",
-      "CSCI 2275"
+      [
+        "CSCI 2270",
+        "CSCI 2275"
+      ]
     ]
   },
   {
@@ -1482,12 +1601,15 @@
     "credits": "3",
     "description": "Provides a comprehensive, hands-on set of laboratory exercises for the teaching and demonstration of key technical skills required to understand, build, test, and analyze both analog and digital wireless communications concepts. In conjunction with lecture-based content to provide a solid foundation in digital communication theory, SDR-based laboratory exercises enable the synthesis of several fundamental concepts utilizing the latest, modern communications systems technologies.",
     "requisites": [
-      "CSCI 5200",
-      "CYBR 5200",
-      "CSCI 5630",
-      "CYBR 5630",
-      "CSCI 5220",
-      "CYBR 5220"
+      [
+        "CSCI 5200",
+        "CYBR 5200",
+        "CSCI 5630"
+      ],
+      [
+        "CYBR 5630",
+        "CSCI 5220"
+      ]
     ]
   },
   {
@@ -1496,18 +1618,20 @@
     "credits": "3",
     "description": "Trains students to build computer systems that learn from experience. Includes the three main subfields: supervised learning, reinforcement learning and unsupervised learning. Emphasizes practical and theoretical understanding of the most widely used algorithms (neural networks, decision trees, support vector machines, Q-learning). Covers connections to data mining and statistical modeling. A strong foundation in probability, statistics, multivariate calculus, and linear algebra is highly recommended.",
     "requisites": [
-      "APPM 3310",
-      "CSCI 2820",
-      "MATH 2130",
-      "APPM 3570",
-      "CHEN 3010",
-      "CSCI 3022",
-      "CVEN 3227",
-      "ECEN 3810",
-      "ECON 3818",
-      "MATH 3510",
-      "MCEN 3047",
-      "STAT 3100"
+      [
+        "APPM 3310",
+        "CSCI 2820",
+        "MATH 2130",
+        "APPM 3570",
+        "CHEN 3010",
+        "CSCI 3022",
+        "CVEN 3227",
+        "ECEN 3810",
+        "ECON 3818",
+        "MATH 3510",
+        "MCEN 3047",
+        "STAT 3100"
+      ]
     ]
   },
   {
@@ -1516,8 +1640,10 @@
     "credits": "3",
     "description": "Studies technologies and architectures employed in modern cellular wireless systems. Major topics include radio propagation, multiple access techniques, analog and digital cellular telephony, and personal communications systems. Presents the necessary tools to understand the wireless industry, its technical details, and its business drivers. Topics include modeling, spectrum, weather, multipath, Doppler effect, and shadowing and covers important aspects of multiple access technologies such as CDMA and OFDMA. introduces modern radio standards including LTE.",
     "requisites": [
-      "CSCI 5200",
-      "CYBR 5200"
+      [
+        "CSCI 5200",
+        "CYBR 5200"
+      ]
     ]
   },
   {
@@ -1526,18 +1652,19 @@
     "credits": "3",
     "description": "Focuses on discretization techniques such as finite difference, finite element and finite volume methods, and parallel solution algorithms such as Krylov subspace methods, domain decomposition and multilevel methods.",
     "requisites": [
-      "CSCI 2820",
-      "APPM 2360",
-      "APPM 3310",
-      "MATH 2130",
-      "MATH 2135",
-      "MATH 3130",
-      "MATH 3135",
-      "CSCI 3656",
-      "APPM 4650",
-      "MATH 4650",
-      "MCEN 3030",
-      "PHYS 2600"
+      [
+        "CSCI 2820",
+        "APPM 2360",
+        "APPM 3310",
+        "MATH 2130",
+        "MATH 2135",
+        "MATH 3130",
+        "MATH 3135",
+        "CSCI 3656",
+        "APPM 4650",
+        "MATH 4650",
+        "MCEN 3030"
+      ]
     ]
   },
   {
@@ -1659,8 +1786,10 @@
     "credits": "3",
     "description": "Explores input and interaction techniques, with an emphasis on universal design and alternative interfaces. Students will explore traditional input methods such as keyboard and mouse input, and alternative techniques such as voice and eye gaze. Students will conduct performance evaluations of existing techniques, and prototype new interaction methods. Students will design technologies to support people with varying abilities and disabilities.",
     "requisites": [
-      "CSCI 3002",
-      "CSCI 5839"
+      [
+        "CSCI 3002",
+        "CSCI 5839"
+      ]
     ]
   },
   {
@@ -1741,8 +1870,7 @@
     "credits": "3",
     "description": "Covers standard complexity classes including: time-bounded, space-bounded, nondeterministic, randomized, quantum, parallel, counting, and nonuniform classes. Covers standard relationships between these complexity classes, as well as landmark results in complexity theory. Additional topics may be covered depending on time and interest.",
     "requisites": [
-      "CSCI 5454",
-      "CSCI 5444"
+      "CSCI 5454"
     ]
   },
   {
@@ -1751,12 +1879,14 @@
     "credits": "3",
     "description": "Learn the core principles of software engineering and design to make scientific software more robust and reproducible. This class targets quantitative scientists with programming skills (in any language) who want to use software in their research. We will cover the version control, testing, benchmarking, data structures, algorithms, and pipelines. This course opens computing to a variety of student disciplines, and is an advanced course in computing geared toward STEM. Instructor approval required for CS majors and CS minors. Previously offered as a special topics course.",
     "requisites": [
-      "ASEN 1320",
-      "CSCI 1200",
-      "CSCI 1300",
-      "CSCI 2275",
-      "ECEN 1310",
-      "INFO 1201"
+      [
+        "ASEN 1320",
+        "CSCI 1200",
+        "CSCI 1300",
+        "CSCI 2275",
+        "ECEN 1310",
+        "INFO 1201"
+      ]
     ]
   },
   {
@@ -1790,8 +1920,7 @@
     "credits": "3",
     "description": "Learn about data structures beyond trees, heaps, and hashtables that are covered in introductory classes on algorithms and data structures. Key topics will include hashtables and their applications, amortized analysis and data structures using amortization, important balanced tree data structures including B-trees, treaps and skip lists, mergeable heaps: binomial and Fibonacci heaps, persistent data structures, tries, suffix tries, suffix automata and spatial data structures.",
     "requisites": [
-      "CSCI 5454",
-      "CSCI 5434"
+      "CSCI 5454"
     ]
   },
   {
@@ -1809,8 +1938,10 @@
     "credits": "3",
     "description": "Introduction to automatic speech recognition and understanding, conversational agents, dialogue systems, and speech synthesis/text-to-speech. Topics include the noisy channel model, Hidden Markov Models, A* and Viterbi decoding, language modeling (N-grams, entropy), concatenative synthesis, text normalization, dialogue and conversation modeling.",
     "requisites": [
-      "CSCI 5832",
-      "LING 5200"
+      [
+        "CSCI 5832",
+        "LING 5200"
+      ]
     ]
   },
   {
@@ -1835,9 +1966,11 @@
     "credits": "3",
     "description": "Introduces key concepts in information theory (entropy, compression, Shannon¿s source coding theorem) and presents these as a foundation for Bayesian inference. Covers statistical modeling approaches and Markov Chain Monte Carlo techniques. Concludes with a unit on designing maximally informative scientific experiments.",
     "requisites": [
-      "MATH 1300",
-      "APPM 1350",
-      "APPM 3570"
+      [
+        "MATH 1300",
+        "APPM 1350",
+        "APPM 3570"
+      ]
     ]
   },
   {
@@ -1887,8 +2020,7 @@
     "credits": "3",
     "description": "This course will cover core and new problems in computer vision through examination of the types of algorithms commonly used as well as the data employed to train and evaluate those algorithms. The course is taught in a seminar style, with students expected to regularly read and critique research papers from premiere computer vision conferences.",
     "requisites": [
-      "CSCI 5622",
-      "CSCI 5922"
+      "CSCI 5622"
     ]
   },
   {
@@ -1994,12 +2126,13 @@
     "credits": "2",
     "description": "Independent, interdisciplinary research project in cognitive science for advanced graduate students pursuing a joint PhD in an approved core discipline and cognitive science. Research projects integrate at least two areas within the cognitive sciences: psychology, computer science, linguistics, education, philosophy. Students need commitments from two mentors for their project.",
     "requisites": [
-      "CSCI 6402",
-      "EDUC 6504",
-      "LING 6200",
-      "PHIL 6310",
-      "PSYC 6200",
-      "EDUC 6505"
+      [
+        "CSCI 6402",
+        "EDUC 6504",
+        "LING 6200",
+        "PHIL 6310",
+        "PSYC 6200"
+      ]
     ]
   },
   {
@@ -2008,10 +2141,12 @@
     "credits": "2",
     "description": "Independent, interdisciplinary research project in cognitive science for advanced graduate students pursuing a joint PhD in an approved core discipline and cognitive science. Research projects integrate at least two areas within the cognitive sciences: psychology, computer science, linguistics, education, philosophy. Students need commitments from two mentors for their project.",
     "requisites": [
-      "LING 7415",
-      "PSYC 7415",
-      "CSCI 7412",
-      "EDUC 6506"
+      [
+        "LING 7415",
+        "PSYC 7415",
+        "CSCI 7412",
+        "EDUC 6506"
+      ]
     ]
   },
   {

@@ -59,7 +59,20 @@ https.get(url, (res) => {
                     if (reqIndex !== -1) {
                         const reqText = text.substring(reqIndex + 'Requisites:'.length).split('.Additional Information:')[0].trim().replace(/\u00a0/g, ' ');
                         const codes = [...reqText.matchAll(/([A-Z]{4} \d{4})/g)].map(m => m[1]);
-                        requisites = codes;
+                        const parts = reqText.split(' and ');
+                        let index = 0;
+                        requisites = [];
+                        for (let part of parts) {
+                            const numOr = (part.match(/ or /g) || []).length;
+                            const numCodes = numOr + 1;
+                            const group = codes.slice(index, index + numCodes);
+                            if (group.length === 1) {
+                                requisites.push(group[0]);
+                            } else if (group.length > 1) {
+                                requisites.push(group);
+                            }
+                            index += numCodes;
+                        }
                     }
                 });
 
