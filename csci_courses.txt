@@ -1,0 +1,214 @@
+CSCI 1000, Computer Science as a Field of Work and Study
+CSCI 1200, Introduction to Computational Thinking
+CSCI 1300, Computer Science 1: Starting Computing
+CSCI 2270, Computer Science 2: Data Structures
+CSCI 2275, Programming and Data Structures
+CSCI 2400, Computer Systems
+CSCI 2750, Computing, Ethics and Society
+CSCI 2820, Linear Algebra with Computer Science Applications
+CSCI 2824, Discrete Structures
+CSCI 2830, Special Topics in Computer Science
+CSCI 2834, Discrete Structures Workgroup
+CSCI 2897, Calculating Biological Quantities
+CSCI 2900, Lower Division, Undergraduate Level Independent Study
+CSCI 3002, Fundamentals of Human Computer Interaction
+CSCI 3010, Intensive Programming Workshop
+CSCI 3022, Introduction to Data Science with Probability and Statistics
+CSCI 3090, Introduction to Quantum Computing
+CSCI 3100, Software and Society
+CSCI 3104, Algorithms
+CSCI 3112, Professional Development in Computer Science
+CSCI 3150, Universal Design for Digital Media
+CSCI 3155, Principles of Programming Languages
+CSCI 3202, Introduction to Artificial Intelligence
+CSCI 3287, Design and Analysis of Database Systems
+CSCI 3302, Introduction to Robotics
+CSCI 3308, Software Development Methods and Tools
+CSCI 3352, Biological Networks
+CSCI 3403, Introduction to CyberSecurity for a Converged World
+CSCI 3434, Theory of Computation
+CSCI 3593, Computer Organization
+CSCI 3656, Numerical Computation
+CSCI 3702, Cognitive Science
+CSCI 3753, Design and Analysis of Operating Systems
+CSCI 3832, Natural Language Processing
+CSCI 4022, Advanced Data Science
+CSCI 4113, Linux System Administration
+CSCI 4114, Practical Algorithmic Complexity
+CSCI 4118, Software Engineering for Scientists
+CSCI 4133, Fundamentals of Computer Security
+CSCI 4200, Introduction to Wireless Systems
+CSCI 4214, Big Data Architecture
+CSCI 4229, Computer Graphics
+CSCI 4239, Advanced Computer Graphics
+CSCI 4240, Introduction to Blockchain
+CSCI 4250, History of Computing
+CSCI 4253, Datacenter Scale Computing - Methods, Systems and Techniques
+CSCI 4273, Network Systems
+CSCI 4302, Advanced Robotics
+CSCI 4303, Cybersecurity Club Companion Course
+CSCI 4308, Software Engineering Project 1
+CSCI 4313, Concurrent Programming
+CSCI 4314, Dynamic Models in Biology
+CSCI 4318, Software Engineering Project 2
+CSCI 4328, Software Project Management and Mentoring
+CSCI 4338, Software Project Management
+CSCI 4348, Startup Essentials: Entrepreneurial Projects in Computing
+CSCI 4358, Entrepreneurial Projects II
+CSCI 4368, Multidisciplinary Design Project 1
+CSCI 4378, Multidisciplinary Design Project 2
+CSCI 4413, Computer Security and Ethical Hacking
+CSCI 4444, Algorithms and Data Structures for Analyzing DNA
+CSCI 4446, Chaotic Dynamics
+CSCI 4448, Object-Oriented Analysis and Design
+CSCI 4502, Data Mining
+CSCI 4550, Designing for Defense 1
+CSCI 4555, Compiler Construction
+CSCI 4576, High-Performance Scientific Computing
+CSCI 4580, Designing for Defense 2
+CSCI 4616, Introduction to Virtual Reality
+CSCI 4622, Machine Learning
+CSCI 4722, Computer Vision
+CSCI 4753, Computer Performance Modeling
+CSCI 4802, Data Science Team Companion Course
+CSCI 4809, Computer Animation
+CSCI 4830, Special Topics in Computer Science
+CSCI 4831, Special Topics in Algorithms
+CSCI 4849, Input, Interaction, and Accessibility
+CSCI 4897, Computational and Mathematical Modeling of Infectious Diseases
+CSCI 4900, Upper Division, Undergraduate Level Independent Study
+CSCI 4950, Senior Thesis
+CSCI 4960, Computer Science Honors Thesis
+CSCI 5000, Introduction to the Computer Science Research-Based MS Program
+CSCI 5010, Fundamentals of Data Communication
+CSCI 5020, Fundamentals of Network Programming
+CSCI 5030, Fundamentals of System Administration and Virtualization
+CSCI 5040, Professional Masters Project 1
+CSCI 5050, Professional Masters Project 2
+CSCI 5100, Computer Science Colloquium
+CSCI 5113, Linux System Administration
+CSCI 5114, Practical Algorithmic Complexity
+CSCI 5122, Neural Networks and Deep Learning for Data Science
+CSCI 5135, Computer-Aided Verification
+CSCI 5140, CLASIC Capstone
+CSCI 5160, Introduction to Enterprise Networks
+CSCI 5170, IP Routing Protocols and Policies
+CSCI 5180, Network Management and Automation
+CSCI 5190, Voice Over IP: Voice Network Design and Implementation
+CSCI 5200, Introduction to Wireless Systems
+CSCI 5202, Introduction to Robotics
+CSCI 5214, Big Data Architecture
+CSCI 5220, Wireless Local Area Networks
+CSCI 5229, Computer Graphics
+CSCI 5230, Wireless Systems Lab
+CSCI 5239, Advanced Computer Graphics
+CSCI 5240, Introduction to Blockchain
+CSCI 5244, Quantum Computation and Information
+CSCI 5253, Datacenter Scale Computing - Methods, Systems and Techniques
+CSCI 5254, Convex Optimization and Its Applications
+CSCI 5260, Datacenter Networks
+CSCI 5264, Decision Making under Uncertainty
+CSCI 5270, IP Network Design
+CSCI 5273, Network Systems
+CSCI 5280, Software-Defined Networking
+CSCI 5302, Advanced Robotics
+CSCI 5303, Cybersecurity Club Companion Course
+CSCI 5313, Concurrent Programming
+CSCI 5314, Dynamic Models in Biology
+CSCI 5322, Algorithmic Human-Robot Interaction
+CSCI 5340, Startup Essentials: Entrepreneurial Projects in Computing
+CSCI 5350, Entrepreneurial Projects II
+CSCI 5352, Network Analysis and Modeling
+CSCI 5360, Internet Service Provider Networks
+CSCI 5380, Network Virtualization and Orchestration
+CSCI 5402, Research Methods in Human-Robot Interaction
+CSCI 5403, Introduction to Computing Security
+CSCI 5413, Computer Security and Ethical Hacking
+CSCI 5423, Biologically-inspired Multi-Agent Systems
+CSCI 5434, Probability for Computer Science
+CSCI 5444, Introduction to Theory of Computation
+CSCI 5446, Chaotic Dynamics
+CSCI 5448, Object-Oriented Analysis and Design
+CSCI 5454, Design and Analysis of Algorithms
+CSCI 5502, Data Mining
+CSCI 5514, Algorithms for Whole Genome Sequence Analysis
+CSCI 5523, Modern Offense and Defense in Cybersecurity
+CSCI 5525, Compiler Construction
+CSCI 5526, Computational Tools for Multiscale Problems
+CSCI 5535, Fundamental Concepts of Programming Languages
+CSCI 5573, Advanced Operating Systems
+CSCI 5576, High-Performance Scientific Computing
+CSCI 5593, Advanced Computer Architecture
+CSCI 5606, Principles of Numerical Computation
+CSCI 5612, Machine Learning for Data Science
+CSCI 5616, Introduction to Virtual Reality
+CSCI 5620, Advanced Wireless Lab
+CSCI 5622, Machine Learning
+CSCI 5630, Wireless and Cellular Systems
+CSCI 5636, Numerical Solution of Partial Differential Equations
+CSCI 5646, Numerical Linear Algebra
+CSCI 5654, Linear Programming
+CSCI 5673, Distributed Systems
+CSCI 5676, Numerical Optimization
+CSCI 5714, Formal Languages
+CSCI 5722, Computer Vision
+CSCI 5753, Computer Performance Modeling
+CSCI 5802, Data Science Team Companion Course
+CSCI 5809, Computer Animation
+CSCI 5817, Database Systems
+CSCI 5822, Probabilistic and Causal Modeling in Computer Science
+CSCI 5828, Foundations of Software Engineering
+CSCI 5832, Natural Language Processing
+CSCI 5839, User-Centered Design and Development 1
+CSCI 5840, Advanced Network Automation
+CSCI 5849, Input, Interaction, and Accessibility
+CSCI 5854, Theoretical Foundations of Autonomous Systems
+CSCI 5880, Interactive Machine Learning for Customizable and Expressive Interfaces
+CSCI 5897, Computational and Mathematical Modeling of Infectious Diseases
+CSCI 5900, Master's Level Independent Study
+CSCI 5919, HCC Survey and Synthesis: Foundations and Trajectories
+CSCI 5922, Fundamentals of Neural Networks and Deep Learning
+CSCI 5929, HCC Survey and Synthesis: New Disciplinary Directions
+CSCI 6000, Introduction to the Computer Science PhD Program
+CSCI 6100, Computer Science Colloquium
+CSCI 6110, Graduate Writing Workshop
+CSCI 6114, Computational Complexity Theory
+CSCI 6118, Software Engineering for Scientists
+CSCI 6166, Validation and Uncertainty Quantification for Computational Models
+CSCI 6200, Computer Science PhD Career Development
+CSCI 6214, Randomized Algorithms
+CSCI 6254, Advanced Data Structures
+CSCI 6268, Foundations of Computer and Network Security
+CSCI 6302, Speech Recognition and Synthesis
+CSCI 6314, Algorithmic Economics
+CSCI 6402, Issues and Methods in Cognitive Science
+CSCI 6414, Information theory, statistical inference, and experimental design
+CSCI 6454, Advanced Algorithms
+CSCI 6502, Big Data Analytics: Systems, Algorithms, and Applications
+CSCI 6622, Advanced Machine Learning
+CSCI 6644, Theory of Computing Reading Group
+CSCI 6686, Numerical Methods for Constrained Optimization
+CSCI 6712, Data-Centric Computer Vision
+CSCI 6810, Seminar in Computational Biology
+CSCI 6930, Professional Internship
+CSCI 6940, Master's Candidate for Degree
+CSCI 6950, Master's Thesis
+CSCI 7000, Current Topics in Computer Science
+CSCI 7114, Seminar in Algorithms and Computational Complexity
+CSCI 7123, Topics in Operating Systems
+CSCI 7135, Topics in Programming Languages
+CSCI 7143, Topics in Computer Systems
+CSCI 7154, Topics in Theory of Computation
+CSCI 7176, Topics in Numerical Computation
+CSCI 7222, Topics in Nonsymbolic Artificial Intelligence
+CSCI 7314, Seminar on Algorithmic Economics and Machine Learning
+CSCI 7412, Cognitive Science Research Applications Seminar 1
+CSCI 7422, Cognitive Science Research Applications Seminar 2
+CSCI 7565, Computational Phonology and Morphology
+CSCI 7575, Computational Lexical Semantics
+CSCI 7585, Computational Models of Discourse and Dialogue
+CSCI 7717, Topics in Database Systems
+CSCI 7772, Topics in Cognitive Science
+CSCI 7818, Topics in Software Engineering
+CSCI 7900, Doctoral Level Independent Study
+CSCI 8990, Doctoral Dissertation

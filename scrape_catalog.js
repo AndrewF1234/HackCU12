@@ -52,11 +52,25 @@ https.get(url, (res) => {
                 code = code.replace(/\u00a0/g, ' ');
                 name = name.replace(/\u00a0/g, ' ');
 
+                let requisites = [];
+                $(element).find('p').each((i, p) => {
+                    if ($(p).text().includes('Requisites:')) {
+                        $(p).find('a').each((j, a) => {
+                            const href = $(a).attr('href');
+                            if (href && href.startsWith('/search/?P=')) {
+                                const code = decodeURIComponent(href.split('=')[1]);
+                                requisites.push(code);
+                            }
+                        });
+                    }
+                });
+
                 courses.push({
                     code: code,
                     title: name,
                     credits: credits,
-                    description: description
+                    description: description,
+                    requisites: requisites
                 });
             }
         });
