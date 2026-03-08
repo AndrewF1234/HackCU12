@@ -1,0 +1,267 @@
+[
+  {
+    "class": [
+      "APPH 1040",
+      "APPH 1050",
+      "APPH 1060"
+    ],
+    "credits": 2
+  },
+  {
+    "class": [
+      "ENGL 1101"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "ENGL 1102"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "PHYS 2211"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "PHYS 2212"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CHEM 1310",
+      "CHEM 1211K",
+      "CHEM 1212K"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "MATH 1551"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "MATH 1552"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "MATH 1553",
+      "MATH 1554",
+      "MATH 1564"
+    ],
+    "credits": 2
+  },
+  {
+    "class": [
+      "HIST 2111",
+      "HIST 2112",
+      "INTA 1200",
+      "POL 1101",
+      "PUBP 3000"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "ECON 2100",
+      "ECON 2101",
+      "ECON 2105",
+      "ECON 2106"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "Humanities Electives"
+    ],
+    "credits": 6
+  },
+  {
+    "class": [
+      "Social Science Electives"
+    ],
+    "credits": 6
+  },
+  {
+    "class": [
+      "Free Electives"
+    ],
+    "credits": 9
+  },
+  {
+    "class": [
+      "ME 1670"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CS 1371"
+    ],
+    "credits": 2
+  },
+  {
+    "class": [
+      "COE 2001"
+    ],
+    "credits": 2
+  },
+  {
+    "class": [
+      "COE 3001"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "MATH 2551"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "MATH 2552"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "ECE 3710"
+    ],
+    "credits": 2
+  },
+  {
+    "class": [
+      "ECE 3741"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "MATH 3215",
+      "MATH 3670",
+      "MATH 4305",
+      "MATH 4317",
+      "MATH 4320",
+      "MATH 4347",
+      "MATH 4541",
+      "MATH 4581",
+      "MATH 4640"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 1601"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "AE 2010"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "AE 2220"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 2610"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "AE 2611"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "AE 3330"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 3030"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "AE 3140"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 3530"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 3531"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "AE 3610"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 4451"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 4311",
+      "AE 4321",
+      "AE 4331"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 4531"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 4532"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "AE 4312",
+      "AE 4322",
+      "AE 4332"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "AE 4610"
+    ],
+    "credits": 3
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "class": [
+      "CSCI 1000"
+    ],
+    "credits": 1
+  },
+  {
+    "class": [
+      "CSCI 1300"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 2270",
+      "CSCI 2275"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 2400"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 3104"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 3155"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 3308"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "APPM 1350",
+      "MATH 1300"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "APPM 1360",
+      "MATH 2300"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 2824",
+      "ECEN 2703",
+      "APPM 3170",
+      "MATH 2001"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 2820",
+      "MATH 2130",
+      "APPM 3310"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3002"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 3202"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3287"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3302"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3403"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 3434"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3656",
+      "APPM 4650",
+      "MATH 4650",
+      "APPM 4600",
+      "MCEN 3030"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 3753"
+    ],
+    "credits": 4
+  }
+]
