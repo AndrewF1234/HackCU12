@@ -1,13 +1,21 @@
 [
   {
     "class": [
-      "CSCI 1000"
+      "CSCI 1000",
+      "ASEN 1000",
+      "BMEN 1000",
+      "CHEN 1300",
+      "CVEN 1317",
+      "ECEN 1100",
+      "EVEN 1000",
+      "MCEN 2000"
     ],
     "credits": 1
   },
   {
     "class": [
-      "CSCI 1300"
+      "CSCI 1300",
+      "ECEN 1310"
     ],
     "credits": 4
   },
@@ -39,37 +47,6 @@
   {
     "class": [
       "CSCI 3308"
-    ],
-    "credits": 3
-  },
-  {
-    "class": [
-      "APPM 1350",
-      "MATH 1300"
-    ],
-    "credits": 4
-  },
-  {
-    "class": [
-      "APPM 1360",
-      "MATH 2300"
-    ],
-    "credits": 4
-  },
-  {
-    "class": [
-      "CSCI 2824",
-      "ECEN 2703",
-      "APPM 3170",
-      "MATH 2001"
-    ],
-    "credits": 3
-  },
-  {
-    "class": [
-      "CSCI 2820",
-      "MATH 2130",
-      "APPM 3310"
     ],
     "credits": 3
   },
@@ -124,5 +101,127 @@
       "CSCI 3753"
     ],
     "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 4022"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 4273"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 4448"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 4348"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 4358"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "APPM 1350",
+      "MATH 1300"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "APPM 1360",
+      "MATH 2300"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "CSCI 2824",
+      "ECEN 2703",
+      "APPM 3170",
+      "MATH 2001"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 2820",
+      "MATH 2130",
+      "APPM 3310"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "CSCI 2750",
+      "INFO 4601",
+      "PHIL 1100",
+      "PHIL 1200",
+      "PHIL 2160",
+      "EHON 1151",
+      "ENLP 2000"
+    ],
+    "credits": 3
+  },
+  {
+    "class": [
+      "PHYS 1120",
+      "PHYS 1140"
+    ],
+    "credits": 5
+  },
+  {
+    "class": [
+      "CHEN 1201",
+      "CHEM 1114"
+    ],
+    "credits": 5
+  },
+  {
+    "class": [
+      "CHEM 1113",
+      "CHEM 1114"
+    ],
+    "credits": 5
+  },
+  {
+    "class": [
+      "EBIO 1210",
+      "EBIO 1230"
+    ],
+    "credits": 4
+  },
+  {
+    "class": [
+      "MCDB 1150",
+      "MCDB 1161"
+    ],
+    "credits": 5
+  },
+  {
+    "class": [
+      "ENES 1010",
+      "ENES 2000",
+      "ENES 2843",
+      "ENES 3100",
+      "ENLP 3100",
+      "WRTG 3030",
+      "WRTG 3035",
+      "PHYS 3050",
+      "WRTG 3020"
+    ],
+    "credits": 3
   }
 ]

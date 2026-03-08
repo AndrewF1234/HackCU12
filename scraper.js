@@ -50,30 +50,29 @@ async function main() {
   }
 
   const prompt = `
-Use grounded web search to find the course requirements for a university major.
+Act as a precise university academic data extractor. 
 
-Major: ${major}
+TASK:
+1. Use the Google Search tool to find the official degree requirements for a major in ${major}.
+2. Research a reputable university's current academic catalog for CU boulder to ensure
+ the data reflects real course codes and credit hours.
+3. Identify ALL requirements for graduation, including:
+   - Specific Core Major courses.
+   - Required foundational math/science courses.
+   - General Education / Core Curriculum requirements (e.g., Arts & Sciences, Writing, Diversity).
 
-Return ALL courses typically required for this major.
+JSON STRUCTURE RULES:
+- If a requirement is a single mandatory course, provide it as: {"class": ["DEPT 1000"], "credits": 3}.
+- If a requirement allows a choice between multiple courses (a selective list where only one is needed), group them in a single array: {"class": ["DEPT 1000", "DEPT 1001"], "credits": 3}.
+- Return ONLY a raw JSON array of these objects.
 
-If they are required, but only one course is required from a selective list, then put it in the same array
-Return ONLY valid JSON in this format:
+CONSTRAINTS:
+- Use only REAL course codes (e.g., "MATH 1300", not "Calculus 1").
+- Do not include electives that have infinite choices (e.g., "Any 3000-level elective"). Only include specific named courses or defined selective lists.
+- No markdown formatting (no json blocks). 
+- No preamble, no explanations, no text outside the JSON.
 
-[
-  {
-    "class": ["CSCI 1300"],
-    "credits": 4
-  },
-  { 
-    "class": ["CSCI 2270" , "CSCI 2271"], 
-    "credits": 4
-   }
-]
-
-Rules:
-- Only include real university courses
-- Do not include explanations
-- Do not include text outside JSON
+MAJOR TO RESEARCH: ${major}
 `;
 
   const resp = await fetch(
