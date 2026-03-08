@@ -53,26 +53,40 @@ async function main() {
 Act as a precise university academic data extractor. 
 
 TASK:
-1. Use the Google Search tool to find the official degree requirements for a major in ${major}.
-2. Research a reputable university's current academic catalog for CU boulder to ensure
- the data reflects real course codes and credit hours.
-3. Identify ALL requirements for graduation, including:
-   - Specific Core Major courses.
-   - Required foundational math/science courses.
-   - General Education / Core Curriculum requirements (e.g., Arts & Sciences, Writing, Diversity).
+1. Use the Google Search tool to find the official degree requirements for a major in ${major} at CU Boulder.
+2. Identify ALL specific graduation requirements, including:
+   - Core Major courses.
+   - Foundational math/science courses.
+   - General Education / Writing requirements.
 
 JSON STRUCTURE RULES:
-- If a requirement is a single mandatory course, provide it as: {"class": ["DEPT 1000"], "credits": 3}.
-- If a requirement allows a choice between multiple courses (a selective list where only one is needed), group them in a single array: {"class": ["DEPT 1000", "DEPT 1001"], "credits": 3}.
-- Return ONLY a raw JSON array of these objects.
+- SINGLE COURSE: If a requirement is mandatory with no other options: {"class": ["DEPT 1000"], "credits": 3}.
+- SELECTIVE LIST: If a requirement says "Course A OR Course B," you MUST include ALL valid options in the array: {"class": ["DEPT 1000", "DEPT 1001"], "credits": 3}.
+- Do NOT pick just one course if the catalog provides multiple options for the same requirement.
+
+EXAMPLE OF CORRECT OUTPUT (Computer Science at CU Boulder):
+[
+  {
+    "class": ["CSCI 1300"],
+    "credits": 4
+  },
+  {
+    "class": ["MATH 1300", "APPM 1350"],
+    "credits": 4
+  },
+  {
+    "class": ["CSCI 2824", "ECEN 2703", "APPM 3170", "MATH 2001"],
+    "credits": 3
+  }
+]
 
 CONSTRAINTS:
-- Use only REAL course codes (e.g., "MATH 1300", not "Calculus 1").
-- Do not include electives that have infinite choices (e.g., "Any 3000-level elective"). Only include specific named courses or defined selective lists.
-- No markdown formatting (no json blocks). 
-- No preamble, no explanations, no text outside the JSON.
+- Use only REAL course codes (e.g., "MATH 1300").
+- Do not include general electives with no specific course list.
+- Return ONLY valid JSON. No markdown blocks, no preamble, no explanations.
 
-MAJOR TO RESEARCH: ${major}
+MAJOR: ${major}
+UNIVERSITY: University of Colorado Boulder
 `;
 
   const resp = await fetch(
