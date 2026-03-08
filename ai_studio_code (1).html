@@ -211,6 +211,7 @@
 
     // --- TRANSITION LOGIC ---
     function goToPlan() {
+        const userData = collectUserInputs();
         document.getElementById('loader').style.display = 'flex';
         
         buildFourYearPlan();
